@@ -1,6 +1,6 @@
 range = 50;
 holdingCup = false;
-cup = -1;
+cup = noone;
 
 yRangeModifier = 0;
 xRangeModifier = 0;
