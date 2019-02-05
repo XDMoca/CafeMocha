@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2ca88305-ad08-4359-abd4-0ad084810b15",
+            "Value": {
+                "id": "06889e72-7d31-4aac-abb3-83787ed1191b",
+                "resourcePath": "scripts\\enums\\enums.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2d287c3d-6ddb-49c9-b730-391db00e8fe4",
             "Value": {
                 "id": "93d44c7c-dd8d-4610-af6c-535076c0246f",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "9f27b3ad-db4c-453a-b282-ae3a5555a12a",
+            "Value": {
+                "id": "4d74beb2-a931-4544-8675-d407a392e108",
+                "resourcePath": "scripts\\interact_with_milk_steamer_secondary\\interact_with_milk_steamer_secondary.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a49d957b-bcef-44c3-9c01-087732838d91",
             "Value": {
                 "id": "f153893c-95e6-4837-8809-619047dc2fc2",
@@ -447,6 +463,14 @@
             }
         },
         {
+            "Key": "fb9f206d-cbe2-447b-82bb-9a9e3250a8db",
+            "Value": {
+                "id": "bad8767e-0f27-48e6-aec2-7b41ad0e6064",
+                "resourcePath": "scripts\\interact_with_kettle_secondary\\interact_with_kettle_secondary.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fd49156a-35bd-426e-ab80-c5cb5d84415e",
             "Value": {
                 "id": "cd4bcac0-b1c0-4a22-b775-e7438c57e4a4",
@@ -459,7 +483,10 @@
         "54239b90-0896-4348-9c35-947a14cf8066",
         "ad154b7c-8e87-4988-b11d-3520e57b9c21",
         "04b5a6fd-3016-4f5b-b52f-f4d20b4822aa",
-        "fd49156a-35bd-426e-ab80-c5cb5d84415e"
+        "fd49156a-35bd-426e-ab80-c5cb5d84415e",
+        "fb9f206d-cbe2-447b-82bb-9a9e3250a8db",
+        "9f27b3ad-db4c-453a-b282-ae3a5555a12a",
+        "2ca88305-ad08-4359-abd4-0ad084810b15"
     ],
     "tutorial": ""
 }

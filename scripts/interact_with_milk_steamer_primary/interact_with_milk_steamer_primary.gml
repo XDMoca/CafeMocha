@@ -4,15 +4,15 @@
 
 var milkSteamerObject = argument0;
 if(holdingCup)
+{
+	if(milkSteamerObject.currentCupsHeld > 0)
 	{
-		if(milkSteamerObject.currentCupsHeld > 0)
-		{
-			milkSteamerObject.currentCupsHeld--;
-			cup.ingredients[array_length_1d(cup.ingredients)] = milkSteamerObject.currentSteamedLevel == MilkLevels.LightFoam ? Ingredient.LightFoamMilk : Ingredient.HeavyFoamMilk;
-		}
+		milkSteamerObject.currentCupsHeld--;
+		cup.ingredients[array_length_1d(cup.ingredients)] = milkSteamerObject.currentSteamedLevel == MilkLevels.LightFoam ? Ingredient.LightFoamMilk : Ingredient.HeavyFoamMilk;
 	}
-	else
-	{
-		milkSteamerObject.isOn = !milkSteamerObject.isOn;
-		milkSteamerObject.alarm[0] = milkSteamerObject.timeBetweenLevels;
-	}
+}
+else
+{
+	milkSteamerObject.isOn = !milkSteamerObject.isOn;
+	milkSteamerObject.alarm[0] = milkSteamerObject.timeBetweenLevels;
+}
