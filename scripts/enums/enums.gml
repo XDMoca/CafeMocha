@@ -5,3 +5,9 @@ enum Direction
 	left = 180,
 	down = 270
 }
+
+enum CustomerStatus
+{
+	waitingForTable = 0,
+	followingPlayer = 1
+}

@@ -8,7 +8,7 @@ switch(equipmentTypeInInteractionRange)
 	case EquipmentType.Kettle:
 	if(!holdingCup)
 	{
-		if(equipmentInInteractionRange.isOn)
+		if(interactableInInteractionRange.isOn)
 		{
 			draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Switch Off", colour, colour, colour, colour, 1);
 		}
@@ -26,7 +26,7 @@ switch(equipmentTypeInInteractionRange)
 	case EquipmentType.MilkSteamer:
 	if(!holdingCup)
 	{
-		if(equipmentInInteractionRange.isOn)
+		if(interactableInInteractionRange.isOn)
 		{
 			draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Switch Off", colour, colour, colour, colour, 1);
 		}

@@ -12,28 +12,28 @@ switch(obj_mocha.direction)
 #endregion
 
 #region Detection
-equipmentInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_kettle, false, true);
-if(equipmentInInteractionRange != noone)
+interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_kettle, false, true);
+if(interactableInInteractionRange != noone)
 {
-	equipmentTypeInInteractionRange = EquipmentType.Kettle;
+	interactableInInteractionRange = EquipmentType.Kettle;
 	return;
 }
-equipmentInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_grinder, false, true);
-if(equipmentInInteractionRange != noone)
+interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_grinder, false, true);
+if(interactableInInteractionRange != noone)
 {
-	equipmentTypeInInteractionRange = EquipmentType.Grinder;
+	interactableInInteractionRange = EquipmentType.Grinder;
 	return;
 }
-equipmentInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_cup_dispenser, false, true);
-if(equipmentInInteractionRange != noone)
+interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_cup_dispenser, false, true);
+if(interactableInInteractionRange != noone)
 {
-	equipmentTypeInInteractionRange = EquipmentType.CupDispenser;
+	interactableInInteractionRange = EquipmentType.CupDispenser;
 	return;
 }
-equipmentInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_milk_steamer, false, true);
-if(equipmentInInteractionRange != noone)
+interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_milk_steamer, false, true);
+if(interactableInInteractionRange != noone)
 {
-	equipmentTypeInInteractionRange = EquipmentType.MilkSteamer;
+	interactableInInteractionRange = EquipmentType.MilkSteamer;
 	return;
 }
 equipmentTypeInInteractionRange = -1;

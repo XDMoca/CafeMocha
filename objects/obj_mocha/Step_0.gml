@@ -54,3 +54,5 @@ switch(direction)
 x += moveX;
 y += moveY;
 #endregion
+
+depth = -y;
