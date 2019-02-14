@@ -9,5 +9,6 @@ enum Direction
 enum CustomerStatus
 {
 	waitingForTable = 0,
-	followingPlayer = 1
+	followingPlayer = 1,
+	decidingOnOrder = 2,
 }

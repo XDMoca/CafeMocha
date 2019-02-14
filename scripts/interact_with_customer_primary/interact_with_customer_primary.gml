@@ -4,8 +4,9 @@
 
 var customerObject = argument0;
 
-//customerObject.x = obj_mocha.x 
-//customerObject.y = obj_mocha.y;
+if(party != noone)
+	return;
+	
 var initialX = customerObject.targetToFollow.x + customerObject.distanceFromTarget;
 var initialY = customerObject.targetToFollow.y;
 for(var i = customerObject.walkPathBufferSize-1; i >= 0; i--)
@@ -14,3 +15,4 @@ for(var i = customerObject.walkPathBufferSize-1; i >= 0; i--)
     customerObject.walkPathBuffer_y[i] = initialY;
 }
 customerObject.customerStatus = CustomerStatus.followingPlayer;
+party = customerObject.party;

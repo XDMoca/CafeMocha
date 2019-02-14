@@ -1,0 +1,2 @@
+customers = [];
+currentTimeWaiting = 0;

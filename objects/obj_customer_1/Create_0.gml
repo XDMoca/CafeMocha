@@ -1,3 +1,4 @@
+party = noone;
 distanceFromTarget = 12;
 targetToFollow = noone;
 walkPathBufferSize = 64;

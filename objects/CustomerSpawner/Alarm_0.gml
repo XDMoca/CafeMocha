@@ -1,4 +1,7 @@
-/// @description Spawn Customer
+/// @description Spawn Customer Party
 
-customerSpawned = instance_create_layer(x, y, "Characters", obj_customer_1);
+var customerParty = instance_create_layer(0, 0, layer_characters, obj_customer_party);
+var customerSpawned = instance_create_layer(x, y, layer_characters, obj_customer_1);
 customerSpawned.targetToFollow = obj_mocha;
+customerSpawned.party = customerParty;
+customerParty.customers[0] = customerSpawned;
