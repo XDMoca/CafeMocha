@@ -15,6 +15,7 @@ for(i=0; i<array_length_1d(party.customers); i++)
 	party.customers[i].customerStatus = CustomerStatus.decidingOnOrder;
 	party.customers[i].x = tableObject.chairs[i].x;
 	party.customers[i].y = tableObject.chairs[i].y;
+	party.customers[i].direction = tableObject.chairs[i].direction;
 }
 
 tableObject.party = party;

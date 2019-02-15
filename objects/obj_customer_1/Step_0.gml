@@ -1,4 +1,5 @@
-image_index = 0;
+var deltaX = 0;
+var deltaY = 0;
 
 if(customerStatus == CustomerStatus.followingPlayer)
 {
@@ -15,9 +16,28 @@ if(customerStatus == CustomerStatus.followingPlayer)
 	    walkPathBuffer_y[0] = targetToFollow.y;
 	}
 
+	var newX = walkPathBuffer_x[distanceFromTarget];
+	var newY = walkPathBuffer_y[distanceFromTarget];
+	deltaX = newX - x;
+	deltaY = newY - y;
+	x = newX;
+	y = newY;
+}
 
-	x = walkPathBuffer_x[distanceFromTarget];
-	y = walkPathBuffer_y[distanceFromTarget];
+if(deltaX != 0)
+	direction = deltaX > 0 ? Direction.right : Direction.left;
+if(deltaY != 0)
+	direction = deltaY > 0 ? Direction.down : Direction.up;
+if(deltaX == 0 && deltaY == 0)
+{
+	image_index = 0;
+}
+switch(direction)
+{
+	case Direction.right: sprite_index = rightSprite; break;
+	case Direction.up: sprite_index = upSprite; break;
+	case Direction.left: sprite_index = leftSprite; break;
+	case Direction.down: sprite_index = downSprite; break;
 }
 
 depth = -y;
