@@ -7,15 +7,20 @@ var customerObject = argument0;
 if(party != noone)
 	return;
 	
-if(customerObject.customerStatus == CustomerStatus.waitingForTable)
+switch(customerObject.customerStatus)
 {
-	var initialX = customerObject.targetToFollow.x + customerObject.distanceFromTarget;
-	var initialY = customerObject.targetToFollow.y;
-	for(var i = customerObject.walkPathBufferSize-1; i >= 0; i--)
-	{
-	    customerObject.walkPathBuffer_x[i] = initialX;
-	    customerObject.walkPathBuffer_y[i] = initialY;
-	}
-	customerObject.customerStatus = CustomerStatus.followingPlayer;
-	party = customerObject.party;
+	case CustomerStatus.waitingForTable:
+		var initialX = customerObject.targetToFollow.x + customerObject.distanceFromTarget;
+		var initialY = customerObject.targetToFollow.y;
+		for(var i = customerObject.walkPathBufferSize-1; i >= 0; i--)
+		{
+		    customerObject.walkPathBuffer_x[i] = initialX;
+		    customerObject.walkPathBuffer_y[i] = initialY;
+		}
+		customerObject.customerStatus = CustomerStatus.followingPlayer;
+		party = customerObject.party;
+	break;
+	case CustomerStatus.decidedOnOrder:
+		
+	break;
 }
