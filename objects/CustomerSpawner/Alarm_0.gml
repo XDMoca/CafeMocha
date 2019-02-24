@@ -5,4 +5,3 @@ var customerSpawned = instance_create_layer(x, y, layer_characters, obj_customer
 customerSpawned.targetToFollow = obj_mocha;
 customerSpawned.party = customerParty;
 customerParty.customers[0] = customerSpawned;
-customerParty.alarm[0] = irandom_range(customerParty.minTimeToDecideOrder, customerParty.maxTimeToDecideOrder) * room_speed;

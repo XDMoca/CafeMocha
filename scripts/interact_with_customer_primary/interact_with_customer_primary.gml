@@ -20,7 +20,7 @@ switch(customerObject.customerStatus)
 		customerObject.customerStatus = CustomerStatus.followingPlayer;
 		party = customerObject.party;
 	break;
-	case CustomerStatus.decidedOnOrder:
-		
+	case CustomerStatus.decidedOnOrder: case CustomerStatus.waitingForOrder:
+		take_order(customerObject);
 	break;
 }

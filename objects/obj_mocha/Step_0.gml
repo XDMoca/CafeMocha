@@ -1,8 +1,18 @@
 #region InputCheck
-leftAxisInput = keyboard_check(vk_left);
-rightAxisInput = keyboard_check(vk_right);
-upAxisInput = keyboard_check(vk_up);
-downAxisInput = keyboard_check(vk_down);
+if(textbox_exists())
+{
+	leftAxisInput = 0;
+	rightAxisInput = 0;
+	upAxisInput = 0;
+	downAxisInput = 0;
+}
+else
+{
+	leftAxisInput = keyboard_check(vk_left);
+	rightAxisInput = keyboard_check(vk_right);
+	upAxisInput = keyboard_check(vk_up);
+	downAxisInput = keyboard_check(vk_down);
+}
 #endregion
 
 #region Movement and Collision
