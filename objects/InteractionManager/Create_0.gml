@@ -7,5 +7,5 @@ party = noone;
 yRangeModifier = 0;
 xRangeModifier = 0;
 
-equipmentTypeInInteractionRange = -1;
+interactableTypeInInteractionRange = -1;
 interactableInInteractionRange = noone;

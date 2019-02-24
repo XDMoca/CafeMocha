@@ -3,7 +3,7 @@ colour = c_white;
 drawXPosition = obj_mocha.x;
 drawYPosition = obj_mocha.y;
 drawOffset = obj_mocha.sprite_height;
-switch(equipmentTypeInInteractionRange)
+switch(interactableTypeInInteractionRange)
 {
 	case EquipmentType.Kettle:
 	if(!holdingCup)

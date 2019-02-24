@@ -15,26 +15,26 @@ switch(obj_mocha.direction)
 interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_kettle, false, true);
 if(interactableInInteractionRange != noone)
 {
-	interactableInInteractionRange = EquipmentType.Kettle;
+	interactableTypeInInteractionRange = EquipmentType.Kettle;
 	return;
 }
 interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_grinder, false, true);
 if(interactableInInteractionRange != noone)
 {
-	interactableInInteractionRange = EquipmentType.Grinder;
+	interactableTypeInInteractionRange = EquipmentType.Grinder;
 	return;
 }
 interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_cup_dispenser, false, true);
 if(interactableInInteractionRange != noone)
 {
-	interactableInInteractionRange = EquipmentType.CupDispenser;
+	interactableTypeInInteractionRange = EquipmentType.CupDispenser;
 	return;
 }
 interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_milk_steamer, false, true);
 if(interactableInInteractionRange != noone)
 {
-	interactableInInteractionRange = EquipmentType.MilkSteamer;
+	interactableTypeInInteractionRange = EquipmentType.MilkSteamer;
 	return;
 }
-equipmentTypeInInteractionRange = -1;
+interactableTypeInInteractionRange = -1;
 #endregion

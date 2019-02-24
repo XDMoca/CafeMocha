@@ -13,6 +13,8 @@ enum CustomerStatus
 	decidingOnOrder = 2,
 	decidedOnOrder = 3,
 	waitingForOrder = 4,
+	drinkingOrder = 5,
+	waitingForParty = 6,
 }
 
 enum Order

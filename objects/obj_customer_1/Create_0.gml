@@ -2,6 +2,10 @@ direction = Direction.down;
 order = Order.Cappuccino;
 party = noone;
 
+#region DrinkVariables
+timeToFinishDrink = 5 * room_speed;
+#endregion
+
 #region FollowVariables
 distanceFromTarget = 12;
 targetToFollow = noone;

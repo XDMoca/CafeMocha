@@ -20,7 +20,13 @@ switch(customerObject.customerStatus)
 		customerObject.customerStatus = CustomerStatus.followingPlayer;
 		party = customerObject.party;
 	break;
-	case CustomerStatus.decidedOnOrder: case CustomerStatus.waitingForOrder:
-		take_order(customerObject);
+	case CustomerStatus.decidedOnOrder:
+			take_order(customerObject);
+	break;
+	case CustomerStatus.waitingForOrder:
+		if(holdingCup)
+			give_cup(customerObject, cup);
+		else
+			take_order(customerObject);
 	break;
 }
