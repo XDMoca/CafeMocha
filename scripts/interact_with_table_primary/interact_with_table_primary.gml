@@ -21,4 +21,5 @@ for(i=0; i<array_length_1d(party.customers); i++)
 
 party.alarm[0] = irandom_range(party.minTimeToDecideOrder, party.maxTimeToDecideOrder) * room_speed;
 tableObject.party = party;
+party.table = tableObject;
 party = noone;

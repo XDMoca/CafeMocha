@@ -1,3 +1,3 @@
 /// @description Finish drinking
 customerStatus = CustomerStatus.waitingForParty;
-show_debug_message("Done drinking");
+check_if_all_customers_are_done(party);

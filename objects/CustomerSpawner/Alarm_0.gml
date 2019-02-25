@@ -5,3 +5,4 @@ var customerSpawned = instance_create_layer(x, y, layer_characters, obj_customer
 customerSpawned.targetToFollow = obj_mocha;
 customerSpawned.party = customerParty;
 customerParty.customers[0] = customerSpawned;
+customerParty.numberOfCustomersInParty = array_length_1d(customerParty.customers);

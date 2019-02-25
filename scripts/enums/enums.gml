@@ -15,11 +15,20 @@ enum CustomerStatus
 	waitingForOrder = 4,
 	drinkingOrder = 5,
 	waitingForParty = 6,
+	leavingShop = 7,
 }
 
 enum Order
 {
 	Espresso = 0,
 	Cappuccino = 1,
-	CafeLatte = 2
+	CafeLatte = 2,
+}
+
+enum Ingredient
+{
+	Coffee,
+	Water,
+	LightFoamMilk,
+	HeavyFoamMilk,
 }

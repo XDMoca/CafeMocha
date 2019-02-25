@@ -1,6 +1,6 @@
 /// @function give_cup(customerObject, cupObject)
 /// @description Gives the currently held cup to the customer
-/// @arg customerObject The cutomer object
+/// @arg customerObject The customer object
 /// @arg cupObject The cup object
 
 var customerObject = argument0;

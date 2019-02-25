@@ -1,4 +1,4 @@
-moveSpeed = 3;
+moveSpeed = const_move_speed;
 moveX = 0;
 moveY = 0;
 

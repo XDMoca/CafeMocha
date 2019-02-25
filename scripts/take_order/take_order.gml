@@ -1,6 +1,6 @@
 /// @function take_order(customerObject)
 /// @description Starts dialogue with customer to take their order and sets their status to waiting
-/// @arg customerObject The cutomer object
+/// @arg customerObject The customer object
 
 var customerObject = argument0;
 

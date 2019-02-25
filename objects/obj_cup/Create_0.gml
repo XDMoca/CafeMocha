@@ -1,11 +1,2 @@
-enum Ingredient
-{
-	Coffee,
-	Water,
-	LightFoamMilk,
-	HeavyFoamMilk
-}
-
 ingredients = [];
-
-show_debug_message("got a cup");
+instance_deactivate_object(self);
