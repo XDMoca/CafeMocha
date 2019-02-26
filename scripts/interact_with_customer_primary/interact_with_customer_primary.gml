@@ -10,15 +10,18 @@ if(party != noone)
 switch(customerObject.customerStatus)
 {
 	case CustomerStatus.waitingForTable:
-		var initialX = customerObject.targetToFollow.x + customerObject.distanceFromTarget;
-		var initialY = customerObject.targetToFollow.y;
-		for(var i = customerObject.walkPathBufferSize-1; i >= 0; i--)
-		{
-		    customerObject.walkPathBuffer_x[i] = initialX;
-		    customerObject.walkPathBuffer_y[i] = initialY;
-		}
-		customerObject.customerStatus = CustomerStatus.followingPlayer;
 		party = customerObject.party;
+		for(var i = 0; i < party.numberOfCustomersInParty; i++)
+		{
+			var initialX = party.customers[i].targetToFollow.x + party.customers[i].distanceFromTarget;
+			var initialY = party.customers[i].targetToFollow.y;
+			for(var j = party.customers[i].walkPathBufferSize-1; j >= 0; j--)
+			{
+			    party.customers[i].walkPathBuffer_x[j] = initialX;
+			    party.customers[i].walkPathBuffer_y[j] = initialY;
+			}
+			party.customers[i].customerStatus = CustomerStatus.followingPlayer;
+		}
 	break;
 	case CustomerStatus.decidedOnOrder:
 			take_order(customerObject);
