@@ -3,7 +3,6 @@
 var customerParty = instance_create_layer(0, 0, layer_characters, obj_customer_party);
 
 var customersToSpawn = irandom_range(minCustomersToSpawn, maxCustomersToSpawn)
-show_debug_message(string(customersToSpawn));
 for(var i = 0; i < customersToSpawn; i++)
 {
 	var customerSpawned = instance_create_layer(x, y, layer_characters, obj_customer_1);

@@ -5,7 +5,7 @@ drawYPosition = obj_mocha.y;
 drawOffset = obj_mocha.sprite_height;
 switch(interactableTypeInInteractionRange)
 {
-	case EquipmentType.Kettle:
+	case InteractableType.Kettle:
 	if(!holdingCup)
 	{
 		if(interactableInInteractionRange.isOn)
@@ -23,7 +23,7 @@ switch(interactableTypeInInteractionRange)
 	}
 	draw_text_colour(drawXPosition, drawYPosition+(drawOffset), "X: Refill", colour, colour, colour, colour, 1);
 	break;
-	case EquipmentType.MilkSteamer:
+	case InteractableType.MilkSteamer:
 	if(!holdingCup)
 	{
 		if(interactableInInteractionRange.isOn)
@@ -41,7 +41,7 @@ switch(interactableTypeInInteractionRange)
 	}
 	draw_text_colour(drawXPosition, drawYPosition+(drawOffset), "X: Refill", colour, colour, colour, colour, 1);
 	break;
-	case EquipmentType.Grinder:
+	case InteractableType.Grinder:
 	if(holdingCup)
 	{
 		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Fill with coffee", colour, colour, colour, colour, 1);
@@ -51,10 +51,20 @@ switch(interactableTypeInInteractionRange)
 		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Grind", colour, colour, colour, colour, 1);
 	}
 	break;
-	case EquipmentType.CupDispenser:
+	case InteractableType.CupDispenser:
 	if(!holdingCup)
 	{
 		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Take Cup", colour, colour, colour, colour, 1);
+	}
+	break;
+	case InteractableType.Counter:
+	if(holdingCup && interactableInInteractionRange.cup == noone)
+	{
+		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Put Down Cup", colour, colour, colour, colour, 1);
+	}
+	else if(!holdingCup && interactableInInteractionRange.cup != noone)
+	{
+		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Pick Up Cup", colour, colour, colour, colour, 1);
 	}
 	break;
 }

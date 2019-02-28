@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0f5f9307-1395-44e5-986d-f6309db08543",
+            "Value": {
+                "id": "3a19099d-666e-4901-9df0-6d27c4474046",
+                "resourcePath": "scripts\\interact_with_counter_primary\\interact_with_counter_primary.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1080c446-9605-4d82-8267-9321bbf66a52",
             "Value": {
                 "id": "25b18185-3c72-4104-868d-e5c1df1a7f3d",
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "8d4ce577-e22a-4657-aac2-6d93305f22bd",
+            "Value": {
+                "id": "ef30c7c3-99da-449c-af53-a8449d17832c",
+                "resourcePath": "objects\\obj_counter\\obj_counter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "908e49e3-db62-4643-b1dc-c9a1273028c5",
             "Value": {
                 "id": "67f10a2c-32d3-4d53-9ef0-8eb5c04fb64c",
@@ -775,6 +791,14 @@
             }
         },
         {
+            "Key": "f25b71c0-3617-486e-b694-0f521064167b",
+            "Value": {
+                "id": "4318197d-5765-4945-bf39-7cf1662fa383",
+                "resourcePath": "sprites\\spr_table_with_drink\\spr_table_with_drink.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f2fcc888-67f1-443a-b95b-da5e237aa915",
             "Value": {
                 "id": "d27cafb7-1442-447f-9ba7-0960a498e023",
@@ -824,6 +848,7 @@
         "9f27b3ad-db4c-453a-b282-ae3a5555a12a",
         "8533c29e-0469-4132-9cd2-b356aa80a095",
         "35158111-5bbb-4d72-943a-85cbf8bd526f",
+        "0f5f9307-1395-44e5-986d-f6309db08543",
         "2ca88305-ad08-4359-abd4-0ad084810b15",
         "23d19d37-07fd-423b-9660-9ee0cb33e6aa",
         "9549331e-4a3f-453a-b90b-dbbcaf7b5811",

@@ -11,7 +11,8 @@
         "fb9f206d-cbe2-447b-82bb-9a9e3250a8db",
         "9f27b3ad-db4c-453a-b282-ae3a5555a12a",
         "8533c29e-0469-4132-9cd2-b356aa80a095",
-        "35158111-5bbb-4d72-943a-85cbf8bd526f"
+        "35158111-5bbb-4d72-943a-85cbf8bd526f",
+        "0f5f9307-1395-44e5-986d-f6309db08543"
     ],
     "filterType": "GMScript",
     "folderName": "InteractionScripts",

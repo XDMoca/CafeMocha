@@ -13,8 +13,11 @@ for(var i = 0; i < array_length_1d(partyObject.customers); i++)
 var spawner = CustomerSpawner;
 for(var i = 0; i < array_length_1d(partyObject.customers); i++)
 {
-	partyObject.customers[i].customerStatus = CustomerStatus.leavingShop;
-	move_towards_point(spawner.x, spawner.y, const_move_speed);
+	with(partyObject.customers[i])
+	{
+		customerStatus = CustomerStatus.leavingShop;
+		move_towards_point(spawner.x, spawner.y, const_move_speed);
+	}
 }
 
 partyObject.table.party = noone;

@@ -32,3 +32,12 @@ enum Ingredient
 	LightFoamMilk,
 	HeavyFoamMilk,
 }
+
+enum InteractableType
+{
+	Kettle,
+	Grinder,
+	CupDispenser,
+	MilkSteamer,
+	Counter
+}

@@ -1,11 +1,3 @@
-enum EquipmentType
-{
-	Kettle,
-	Grinder,
-	CupDispenser,
-	MilkSteamer
-}
-
 isOn = false;
 timeBetweenLevels = 5 * room_speed;
 currentHeatLevel = 0;
