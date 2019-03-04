@@ -183,11 +183,27 @@
             }
         },
         {
+            "Key": "242ca266-33d7-40ce-bb40-eb0f930c7e24",
+            "Value": {
+                "id": "0cc35ee4-8ab0-449d-84c9-6a37125672d7",
+                "resourcePath": "objects\\GameManager\\GameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27925c55-fb45-4ac2-8df9-42c0bb300465",
             "Value": {
                 "id": "eba77a95-f559-4ae3-b87c-632b0bd995da",
                 "resourcePath": "sprites\\spr_customer_1_walk_up\\spr_customer_1_walk_up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ab23d6c-ea52-46e6-8c16-56d131e36ce8",
+            "Value": {
+                "id": "2d2a75df-a15b-4b74-b1ac-76362b76c4ee",
+                "resourcePath": "scripts\\decide_on_order\\decide_on_order.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -876,6 +892,7 @@
         "3a1bbc3f-c8a5-462a-827e-0fc12fae32d3",
         "830b197d-e4e3-453f-b8dc-93b8bedcea5f",
         "7dee056c-5f42-4a6f-808a-4a29372de119",
+        "2ab23d6c-ea52-46e6-8c16-56d131e36ce8",
         "50a0344c-e6a1-4425-bfc6-baee7ca5557f",
         "8acbf024-9470-4112-9541-097c080395fd"
     ],
