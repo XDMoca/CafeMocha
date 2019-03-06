@@ -10,6 +10,14 @@ if(holdingCup)
 	{
 		kettleObject.currentCupsHeld--;
 		cup.ingredients[array_length_1d(cup.ingredients)] = Ingredient.Water;
+		switch(kettleObject.currentHeatLevel)
+		{
+			case 9:  cup.ingredientScore += 5; break;
+			case 10: case 8: cup.ingredientScore += 4; break;
+			case 7:  cup.ingredientScore += 3; break;
+			case 6: case 5:  cup.ingredientScore += 2; break;
+			default:  cup.ingredientScore += 1; break;
+		}
 	}
 }
 else

@@ -10,6 +10,7 @@ if(holdingCup)
 	{
 		cup.ingredients[array_length_1d(cup.ingredients)] = Ingredient.Coffee;
 		grinderObject.currentCupsHeld--;
+		cup.ingredientScore += 3;
 	}
 }
 else

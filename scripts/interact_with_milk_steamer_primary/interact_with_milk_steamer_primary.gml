@@ -9,6 +9,7 @@ if(holdingCup)
 	{
 		milkSteamerObject.currentCupsHeld--;
 		cup.ingredients[array_length_1d(cup.ingredients)] = milkSteamerObject.currentSteamedLevel == MilkLevels.LightFoam ? Ingredient.LightFoamMilk : Ingredient.HeavyFoamMilk;
+		cup.ingredientScore += 3;
 	}
 }
 else
