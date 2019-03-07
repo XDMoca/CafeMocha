@@ -1,6 +1,7 @@
 direction = Direction.down;
 order = Order.Cappuccino;
 party = noone;
+satisfactionRating = 0;
 
 #region DrinkVariables
 timeToFinishDrink = 5 * room_speed;
