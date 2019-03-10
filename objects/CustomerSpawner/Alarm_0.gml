@@ -21,9 +21,10 @@ if(spawnX != 0 && spawnY != 0)
 	var customerParty = instance_create_layer(spawnX, spawnY, layer_characters, obj_customer_party);
 
 	var customersToSpawn = irandom_range(minCustomersToSpawn, maxCustomersToSpawn)
+	var customerTypeToSpawn = get_customer_type_to_spawn();
 	for(var i = 0; i < customersToSpawn; i++)
 	{
-		var customerSpawned = instance_create_layer(spawnX, spawnY, layer_characters, obj_customer_1);
+		var customerSpawned = instance_create_layer(spawnX, spawnY, layer_characters, get_random_customer_of_type(customerTypeToSpawn));
 		customerSpawned.targetToFollow = i == 0 ? obj_mocha : customerParty.customers[i-1];
 		customerSpawned.party = customerParty;
 		customerParty.customers[i] = customerSpawned;

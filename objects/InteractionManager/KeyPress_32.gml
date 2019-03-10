@@ -30,7 +30,7 @@ if(interactable != noone)
 	return;
 }
 
-interactable = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_customer_1, false, true);
+interactable = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_customer, false, true);
 if(interactable != noone)
 {
 	interact_with_customer_primary(interactable);

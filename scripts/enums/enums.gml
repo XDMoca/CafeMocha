@@ -41,3 +41,9 @@ enum InteractableType
 	MilkSteamer,
 	Counter
 }
+
+enum CustomerType
+{
+	Kaishain = 0,
+	Seifuku = 1,
+}
