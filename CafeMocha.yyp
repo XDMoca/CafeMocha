@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "1cda3783-7403-4dd0-a7d8-fff961de3030",
+            "Value": {
+                "id": "72af3578-ef37-483b-93fc-97682e8f3f84",
+                "resourcePath": "fonts\\info_panel_font\\info_panel_font.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "1d1b0004-11ae-4dd6-a9fd-1124fe2c3de4",
             "Value": {
                 "id": "68d67186-132b-4f20-bdc3-518d45f68048",
@@ -532,6 +540,14 @@
                 "id": "07533b30-97c7-455a-ba51-33c7c1a10613",
                 "resourcePath": "views\\6cf9d625-2804-4270-9a9d-434918ab3b65.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6d29c832-3d09-4f41-a0fb-cd57f5c2c4b3",
+            "Value": {
+                "id": "c4464b4d-fd5c-4832-8dd4-87cc2e7c692f",
+                "resourcePath": "objects\\InfoPanelManager\\InfoPanelManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
