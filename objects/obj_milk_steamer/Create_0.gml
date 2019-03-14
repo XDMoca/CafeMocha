@@ -11,3 +11,4 @@ currentSteamedLevel = 0;
 maxSteamedLevel = 3;
 currentCupsHeld = 0;
 maxCupsCanHold = 2;
+depth = y;

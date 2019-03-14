@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_cup_dispenser",
     "eventList": [
-        
+        {
+            "id": "40142148-65cd-423e-a873-1a71bedfcbb8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e76eb33c-7773-48e5-8297-47f1e0f78dab"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
