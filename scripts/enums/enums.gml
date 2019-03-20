@@ -30,7 +30,7 @@ enum Ingredient
 	Coffee,
 	Water,
 	LightFoamMilk,
-	HeavyFoamMilk,
+	HeavyFoamMilk
 }
 
 enum InteractableType

@@ -4,5 +4,8 @@
 
 var milkSteamerObject = argument0;
 
+if(milkSteamerObject.isOn)
+	return;
+	
 milkSteamerObject.currentCupsHeld = milkSteamerObject.maxCupsCanHold;
 milkSteamerObject.currentSteamedLevel = 0;

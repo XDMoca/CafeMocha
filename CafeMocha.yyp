@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0ec50a87-76ab-4271-a59a-e810499501a9",
+            "Value": {
+                "id": "80682cbe-2ec0-41f2-9417-8b453f4f982f",
+                "resourcePath": "views\\0ec50a87-76ab-4271-a59a-e810499501a9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0f5f9307-1395-44e5-986d-f6309db08543",
             "Value": {
                 "id": "3a19099d-666e-4901-9df0-6d27c4474046",
@@ -180,6 +188,14 @@
                 "id": "68d67186-132b-4f20-bdc3-518d45f68048",
                 "resourcePath": "objects\\obj_customer_kaishain_2\\obj_customer_kaishain_2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1f78989a-4ddf-464f-b203-3dfb500e9854",
+            "Value": {
+                "id": "c236ff96-cc9f-4bdd-86fd-0c22550217c7",
+                "resourcePath": "scripts\\get_milk_quality\\get_milk_quality.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -695,6 +711,14 @@
             }
         },
         {
+            "Key": "88c4ec53-d90c-446f-86e7-e8eaa684bc7e",
+            "Value": {
+                "id": "4a87fe3b-b50a-40b8-b359-f25b2bff93b1",
+                "resourcePath": "scripts\\can_move\\can_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8a657ab6-e97a-499a-bc2f-3f151ee00104",
             "Value": {
                 "id": "5721da08-b4e8-4a3b-84d2-21007a63902a",
@@ -852,6 +876,14 @@
                 "id": "f153893c-95e6-4837-8809-619047dc2fc2",
                 "resourcePath": "objects\\InteractionManager\\InteractionManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6d71577-8382-46c4-b353-c6c678baaf9c",
+            "Value": {
+                "id": "8846a5b3-907f-4821-a383-8128602e0e69",
+                "resourcePath": "scripts\\get_milk_ingredient\\get_milk_ingredient.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1023,6 +1055,14 @@
             }
         },
         {
+            "Key": "d16b1026-7aaa-479e-baa0-55c9ae8b2a91",
+            "Value": {
+                "id": "ff998ffe-24e2-4752-9f70-02c8a1c320b8",
+                "resourcePath": "views\\d16b1026-7aaa-479e-baa0-55c9ae8b2a91.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d4385aaf-2e23-4b8b-ab6f-d194e24c9533",
             "Value": {
                 "id": "8ea50f2e-f834-448e-a5a1-773d81c714b9",
@@ -1143,6 +1183,14 @@
             }
         },
         {
+            "Key": "fb830bad-e0df-459f-8619-de6faa874949",
+            "Value": {
+                "id": "3fc65c2a-cd9e-48df-9dfb-d25f61591c92",
+                "resourcePath": "views\\fb830bad-e0df-459f-8619-de6faa874949.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fb9f206d-cbe2-447b-82bb-9a9e3250a8db",
             "Value": {
                 "id": "bad8767e-0f27-48e6-aec2-7b41ad0e6064",
@@ -1233,7 +1281,10 @@
         "50a0344c-e6a1-4425-bfc6-baee7ca5557f",
         "8acbf024-9470-4112-9541-097c080395fd",
         "984fd56c-107c-4781-969e-8789524026b3",
-        "90385be9-63d7-4766-91a6-427767f717f3"
+        "90385be9-63d7-4766-91a6-427767f717f3",
+        "88c4ec53-d90c-446f-86e7-e8eaa684bc7e",
+        "a6d71577-8382-46c4-b353-c6c678baaf9c",
+        "1f78989a-4ddf-464f-b203-3dfb500e9854"
     ],
     "tutorial": ""
 }

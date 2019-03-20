@@ -6,9 +6,9 @@ enum MilkLevels
 	OverFoam = 3
 }
 isOn = false;
-timeBetweenLevels = 5 * room_speed;
+timeBetweenIntervals = 0.05 * room_speed;
 currentSteamedLevel = 0;
-maxSteamedLevel = 3;
+maxSteamedLevel = 100;
 currentCupsHeld = 0;
 maxCupsCanHold = 2;
 depth = y;

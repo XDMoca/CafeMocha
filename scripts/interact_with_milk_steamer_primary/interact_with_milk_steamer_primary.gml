@@ -8,12 +8,14 @@ if(holdingCup)
 	if(milkSteamerObject.currentCupsHeld > 0)
 	{
 		milkSteamerObject.currentCupsHeld--;
-		cup.ingredients[array_length_1d(cup.ingredients)] = milkSteamerObject.currentSteamedLevel == MilkLevels.LightFoam ? Ingredient.LightFoamMilk : Ingredient.HeavyFoamMilk;
-		cup.ingredientScore += 3;
+		cup.ingredients[array_length_1d(cup.ingredients)] = get_milk_level(milkSteamerObject);
+		cup.ingredientScore += get_milk_quality(milkSteamerObject);
 	}
 }
 else
 {
+	if(!milkSteamerObject.isOn && milkSteamerObject.currentSteamedLevel > 0)
+		return;
 	milkSteamerObject.isOn = !milkSteamerObject.isOn;
-	milkSteamerObject.alarm[0] = milkSteamerObject.timeBetweenLevels;
+	milkSteamerObject.alarm[0] = milkSteamerObject.timeBetweenIntervals;
 }

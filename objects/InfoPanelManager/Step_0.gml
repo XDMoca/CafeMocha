@@ -18,6 +18,15 @@ switch(interactionManager.interactableTypeInInteractionRange)
 		equipmentInfoTextLine3 = "";
 		break;
 	}
+	case InteractableType.MilkSteamer:
+	{
+		var interactable = interactionManager.interactableInInteractionRange;
+		equipmentNameText = "Milk Steamer";
+		equipmentInfoTextLine1 = "Steamedness: " + string(interactable.currentSteamedLevel) + "/" + string(interactable.maxSteamedLevel);
+		equipmentInfoTextLine2 = "Cupfuls of milk: " + string(interactable.currentCupsHeld) + "/" + string(interactable.maxCupsCanHold);
+		equipmentInfoTextLine3 = "";
+		break;
+	}
 	default:
 	{
 		equipmentNameText = "";

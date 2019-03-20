@@ -1,5 +1,5 @@
 #region InputCheck
-if(textbox_exists())
+if(!can_move())
 {
 	leftAxisInput = 0;
 	rightAxisInput = 0;
