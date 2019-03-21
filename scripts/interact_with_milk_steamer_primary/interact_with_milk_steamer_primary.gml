@@ -8,7 +8,7 @@ if(holdingCup)
 	if(milkSteamerObject.currentCupsHeld > 0)
 	{
 		milkSteamerObject.currentCupsHeld--;
-		cup.ingredients[array_length_1d(cup.ingredients)] = get_milk_level(milkSteamerObject);
+		cup.ingredients[array_length_1d(cup.ingredients)] = get_milk_ingredient(milkSteamerObject);
 		cup.ingredientScore += get_milk_quality(milkSteamerObject);
 	}
 }

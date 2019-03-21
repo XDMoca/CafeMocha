@@ -11,3 +11,8 @@ equipmentNameText = "";
 equipmentInfoTextLine1 = "";
 equipmentInfoTextLine2 = "";
 equipmentInfoTextLine3 = "";
+
+#region SteamerBar
+steamerBarWidth = 50;
+steamerBarHeight = 150;
+#endregion

@@ -1,10 +1,3 @@
-enum MilkLevels
-{
-	Plain = 0,
-	LightFoam = 1,
-	HeavyFoam = 2,
-	OverFoam = 3
-}
 isOn = false;
 timeBetweenIntervals = 0.05 * room_speed;
 currentSteamedLevel = 0;
