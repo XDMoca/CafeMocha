@@ -40,6 +40,7 @@ if argument_count >= 13 {
 	var voption3 = argument[12];
 }
 
+draw_set_font(vfont);
 var text_width = string_width_ext(vtext,vseparation,vbubblewidth);
 var text_height = string_height_ext(vtext,vseparation,vbubblewidth-6);
 
