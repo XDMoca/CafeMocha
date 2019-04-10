@@ -4,7 +4,7 @@
 if(textbox_exists())
 	return false;
 	
-if(obj_milk_steamer.isOn)
+if(obj_drink_station.isMenuOpen)
 	return false;
 	
 return true;

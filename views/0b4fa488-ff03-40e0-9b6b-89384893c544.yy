@@ -1,8 +1,8 @@
 {
-    "id": "aea01871-9693-458c-8b3a-e24b6023952a",
+    "id": "0b4fa488-ff03-40e0-9b6b-89384893c544",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "aea01871-9693-458c-8b3a-e24b6023952a",
+    "name": "0b4fa488-ff03-40e0-9b6b-89384893c544",
     "children": [
         "96d0d0db-13d5-4c8e-9212-19765ef1b1bb",
         "41818fff-838a-4dbb-884a-f247e138c48c",
@@ -10,7 +10,7 @@
         "e76eb33c-7773-48e5-8297-47f1e0f78dab"
     ],
     "filterType": "GMObject",
-    "folderName": "Equipment",
+    "folderName": "DrinkStation",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

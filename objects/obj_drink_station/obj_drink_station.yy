@@ -1,33 +1,43 @@
 {
-    "id": "2d287c3d-6ddb-49c9-b730-391db00e8fe4",
+    "id": "a7d66a1e-6903-4721-b9c5-308907374273",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_grinder",
+    "name": "obj_drink_station",
     "eventList": [
         {
-            "id": "a3d45b45-5d2c-4cca-bd3e-59e43407b0ce",
+            "id": "7b1bf9b2-581a-4530-bcd7-e4c8b7a9a4f6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "2d287c3d-6ddb-49c9-b730-391db00e8fe4"
+            "m_owner": "a7d66a1e-6903-4721-b9c5-308907374273"
         },
         {
-            "id": "88cf6eb6-58d0-47dd-a46b-4f2726b0d85e",
+            "id": "9deb3715-28cc-486a-9784-419c2a8562fe",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "a7d66a1e-6903-4721-b9c5-308907374273"
+        },
+        {
+            "id": "b9fc42c5-8297-4514-bd0a-41f3e0b4a6a4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 64,
             "eventtype": 8,
-            "m_owner": "2d287c3d-6ddb-49c9-b730-391db00e8fe4"
+            "m_owner": "a7d66a1e-6903-4721-b9c5-308907374273"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "9e4aa194-04e3-4415-a79d-173ef7b1c448",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -41,23 +51,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "5a7d9cf4-9f71-4934-a361-d06de9677a45",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "equipmentType",
-            "varType": 1
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "093b8c1b-4d9e-4360-a44f-5c510fe81431",
+    "spriteId": "4c066270-a911-43ae-84e0-51fd8cab3c5d",
     "visible": true
 }

@@ -1,3 +1,4 @@
+return;
 switch(interactionManager.interactableTypeInInteractionRange)
 {
 	case InteractableType.Kettle:

@@ -1,1 +1,2 @@
-image_index = isOn ? 1 : 0;
+event_inherited();
+//image_index = isOn ? 1 : 0;
