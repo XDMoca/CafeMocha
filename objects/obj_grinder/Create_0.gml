@@ -1,5 +1,3 @@
 event_inherited();
-repsTillOneGrind = 3;
-currentReps = 0;
-maxCupsCanHold = 4;
-currentCupsHeld = 0;
+drinkStation = obj_drink_station;
+script = interact_with_grinder;

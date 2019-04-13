@@ -1,8 +1,8 @@
 {
-    "id": "ad154b7c-8e87-4988-b11d-3520e57b9c21",
+    "id": "fd49156a-35bd-426e-ab80-c5cb5d84415e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "interact_with_grinder_primary",
+    "name": "interact_with_milk_steamer",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -1,5 +1,5 @@
 /// @function interact_with_drink_station(stationObject)
-/// @description Handles primary button interactions with the Drink Station Object
+/// @description Handles interactions with the Drink Station Object
 /// @arg stationObject The drink station object
 
 var stationObject = argument0;

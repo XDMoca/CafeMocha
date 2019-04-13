@@ -61,7 +61,7 @@ if(script != noone && position_meeting(mouse_gui_x,mouse_gui_y,id))
 	image_index=1;
 	if(mouse_check_button_pressed(mb_left))
 	{	//Left button is being pressed
-		script_execute(script,aspect_argument);		
+		script_execute(script, id);		
 	}
 }
 else

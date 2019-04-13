@@ -8,4 +8,10 @@ if(keyboard_check(ord("X")))
 	instance_deactivate_object(milkSteamer);
 	instance_deactivate_object(kettle);
 	instance_deactivate_object(grinder);
+	
+	if(cup != noone)
+	{
+		InteractionManager.cup = cup;
+		cup = noone;
+	}
 }

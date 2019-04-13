@@ -14,8 +14,7 @@ var _y=ystart;
 //Identify all offsets for various anchors
 var _posx = [_x,    _gw/2-(_vcx-_x),    _gw-(_vw-_x)];
 var _posy = [_y,    _gh/2-(_vcy-_y),    _gh-(_vh-_y)];
-show_debug_message(_vw);
-show_debug_message(_vh);
+
 //Apply Offsets based on current anchor
 #region Anchor position
 switch(anchor)

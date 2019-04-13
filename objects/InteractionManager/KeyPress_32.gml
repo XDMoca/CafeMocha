@@ -9,34 +9,6 @@ if(interactable != noone)
 	return;
 }
 
-interactable = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_kettle, false, true);
-if(interactable != noone)
-{
-	interact_with_kettle_primary(interactable);
-	return;
-}
-
-interactable = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_grinder, false, true);
-if(interactable != noone)
-{
-	interact_with_grinder_primary(interactable);
-	return;
-}
-
-interactable = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_cup_dispenser, false, true);
-if(interactable != noone)
-{
-	interact_with_cup_dispenser_primary();
-	return;
-}
-
-interactable = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_milk_steamer, false, true);
-if(interactable != noone)
-{
-	interact_with_milk_steamer_primary(interactable);
-	return;
-}
-
 interactable = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_customer, false, true);
 if(interactable != noone)
 {

@@ -5,58 +5,6 @@ drawYPosition = obj_mocha.y;
 drawOffset = obj_mocha.sprite_height;
 switch(interactableTypeInInteractionRange)
 {
-	case InteractableType.Kettle:
-	if(!holdingCup)
-	{
-		if(interactableInInteractionRange.isOn)
-		{
-			draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Switch Off", colour, colour, colour, colour, 1);
-		}
-		else
-		{
-			draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Switch On", colour, colour, colour, colour, 1);
-		}
-	}
-	else
-	{
-		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Fill with water", colour, colour, colour, colour, 1);
-	}
-	draw_text_colour(drawXPosition, drawYPosition+(drawOffset), "X: Refill", colour, colour, colour, colour, 1);
-	break;
-	case InteractableType.MilkSteamer:
-	if(!holdingCup)
-	{
-		if(interactableInInteractionRange.isOn)
-		{
-			draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Switch Off", colour, colour, colour, colour, 1);
-		}
-		else
-		{
-			draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Switch On", colour, colour, colour, colour, 1);
-		}
-	}
-	else
-	{
-		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Fill with milk", colour, colour, colour, colour, 1);
-	}
-	draw_text_colour(drawXPosition, drawYPosition+(drawOffset), "X: Refill", colour, colour, colour, colour, 1);
-	break;
-	case InteractableType.Grinder:
-	if(holdingCup)
-	{
-		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Fill with coffee", colour, colour, colour, colour, 1);
-	}
-	else
-	{
-		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Grind", colour, colour, colour, colour, 1);
-	}
-	break;
-	case InteractableType.CupDispenser:
-	if(!holdingCup)
-	{
-		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Take Cup", colour, colour, colour, colour, 1);
-	}
-	break;
 	case InteractableType.Counter:
 	if(holdingCup && interactableInInteractionRange.cup == noone)
 	{
@@ -71,7 +19,7 @@ switch(interactableTypeInInteractionRange)
 #endregion
 
 #region DrawCupContents
-if(holdingCup)
+if(cup != noone)
 {
 	if(array_length_1d(cup.ingredients) == 0)
 	{

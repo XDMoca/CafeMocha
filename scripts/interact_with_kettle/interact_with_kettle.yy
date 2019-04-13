@@ -1,8 +1,8 @@
 {
-    "id": "fb9f206d-cbe2-447b-82bb-9a9e3250a8db",
+    "id": "54239b90-0896-4348-9c35-947a14cf8066",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "interact_with_kettle_secondary",
+    "name": "interact_with_kettle",
     "IsCompatibility": false,
     "IsDnD": false
 }

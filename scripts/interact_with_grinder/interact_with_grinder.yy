@@ -1,8 +1,8 @@
 {
-    "id": "1f78989a-4ddf-464f-b203-3dfb500e9854",
+    "id": "ad154b7c-8e87-4988-b11d-3520e57b9c21",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "get_milk_quality",
+    "name": "interact_with_grinder",
     "IsCompatibility": false,
     "IsDnD": false
 }
