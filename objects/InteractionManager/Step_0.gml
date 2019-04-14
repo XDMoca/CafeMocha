@@ -12,34 +12,17 @@ switch(obj_mocha.direction)
 #endregion
 
 #region Detection
-interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_kettle, false, true);
-if(interactableInInteractionRange != noone)
-{
-	interactableTypeInInteractionRange = InteractableType.Kettle;
-	return;
-}
-interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_grinder, false, true);
-if(interactableInInteractionRange != noone)
-{
-	interactableTypeInInteractionRange = InteractableType.Grinder;
-	return;
-}
-interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_cup_dispenser, false, true);
-if(interactableInInteractionRange != noone)
-{
-	interactableTypeInInteractionRange = InteractableType.CupDispenser;
-	return;
-}
-interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_milk_steamer, false, true);
-if(interactableInInteractionRange != noone)
-{
-	interactableTypeInInteractionRange = InteractableType.MilkSteamer;
-	return;
-}
 interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_counter, false, true);
 if(interactableInInteractionRange != noone)
 {
 	interactableTypeInInteractionRange = InteractableType.Counter;
+	return;
+}
+
+interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_drink_station, false, true);
+if(interactableInInteractionRange != noone)
+{
+	interactableTypeInInteractionRange = InteractableType.DrinkStation;
 	return;
 }
 interactableTypeInInteractionRange = -1;

@@ -3,11 +3,7 @@ if(!isMenuOpen)
 	
 if(keyboard_check(ord("X")))
 {
-	isMenuOpen = false;
-	instance_deactivate_object(cupDispenser);
-	instance_deactivate_object(milkSteamer);
-	instance_deactivate_object(kettle);
-	instance_deactivate_object(grinder);
+	toggle_drink_station_display(id, false);
 	
 	if(cup != noone)
 	{

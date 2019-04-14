@@ -1,11 +1,11 @@
-if(textbox_exists())
+if(!can_move())
 	return;
 	
 #region InteractionCode
 interactable = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_drink_station, false, true);
 if(interactable != noone)
 {
-	interact_with_drink_station(interactable);
+	interact_with_drink_station(id, interactable);
 	return;
 }
 

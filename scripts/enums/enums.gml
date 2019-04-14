@@ -35,11 +35,8 @@ enum Ingredient
 
 enum InteractableType
 {
-	Kettle,
-	Grinder,
-	CupDispenser,
-	MilkSteamer,
-	Counter
+	Counter,
+	DrinkStation,
 }
 
 enum CustomerType

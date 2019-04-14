@@ -4,14 +4,14 @@
     "mvc": "1.1",
     "name": "0d85d016-edb4-4eb4-a079-b207c29bbb0d",
     "children": [
-        "d229e83e-1413-4091-81a1-08e35dbe7417",
-        "4c066270-a911-43ae-84e0-51fd8cab3c5d",
-        "0225d483-525e-4e4b-9f73-b55f46be8e0d",
-        "97fc7090-627d-4676-bddb-a52659a30036",
-        "093b8c1b-4d9e-4360-a44f-5c510fe81431"
+        "a6293997-0856-4857-9791-02d84bcbe7a4",
+        "c98a08ba-a5e8-44c2-a784-fbdc9dab583e",
+        "4c989894-f021-49dc-8eb9-e660d3f704c4",
+        "188ab235-3be9-4e59-8785-687a67ba6adc",
+        "11e5e9db-509b-45b5-a5eb-542b39f73a95"
     ],
     "filterType": "GMSprite",
-    "folderName": "Equipment",
+    "folderName": "DrinkStationScreen",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

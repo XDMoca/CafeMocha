@@ -1,3 +1,6 @@
+if(!can_move())
+	return;
+
 #region DrawInputPrompts
 colour = c_white;
 drawXPosition = obj_mocha.x;
@@ -13,6 +16,13 @@ switch(interactableTypeInInteractionRange)
 	else if(!holdingCup && interactableInInteractionRange.cup != noone)
 	{
 		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Pick Up Cup", colour, colour, colour, colour, 1);
+	}
+	break;
+	
+	case InteractableType.DrinkStation:
+	if(cup == noone)
+	{
+		draw_text_colour(drawXPosition, drawYPosition+(drawOffset/2), "Spacebar: Make Drinks", colour, colour, colour, colour, 1);
 	}
 	break;
 }

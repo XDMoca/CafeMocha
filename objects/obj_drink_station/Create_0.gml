@@ -12,13 +12,11 @@ panelColour = make_color_rgb(102, 34, 0);
 #endregion
 
 #region Equipment
-cupDispenser = obj_cup_dispenser;
-milkSteamer = obj_milk_steamer;
-kettle = obj_kettle;
-grinder = obj_grinder;
+btnCup = btn_cup;
+btnDiscardCup = btn_discard_cup;
+btnMilk = btn_milk;
+btnFoamedMilk = btn_foamed_milk;
+btnEspresso = btn_espresso;
 
-instance_deactivate_object(cupDispenser);
-instance_deactivate_object(milkSteamer);
-instance_deactivate_object(kettle);
-instance_deactivate_object(grinder);
+toggle_drink_station_display(id, false);
 #endregion
