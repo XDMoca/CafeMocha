@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "673ef1f8-6671-4338-8b3a-f0dd7e714338",
+            "Value": {
+                "id": "aa65a23c-35a4-4426-b856-1b39dec3e285",
+                "resourcePath": "sprites\\spr_working_cup\\spr_working_cup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67ce74b0-e96f-49c2-a6ea-1707d4948618",
             "Value": {
                 "id": "f7e5b635-37d4-42c9-8d48-6b299bfc0a3b",
@@ -1023,6 +1031,14 @@
             }
         },
         {
+            "Key": "c2e2acab-d487-41ff-aedd-9629dd478563",
+            "Value": {
+                "id": "94a94e29-ab16-4bab-aec0-ac3070b71bb2",
+                "resourcePath": "scripts\\get_drink_type\\get_drink_type.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c2fdcaf8-b517-419f-aef2-14b6364b9e80",
             "Value": {
                 "id": "f0ba95c9-20c6-4340-9658-362d08f92891",
@@ -1341,6 +1357,7 @@
         "06141a50-1829-4ee3-867c-19edca656d2f",
         "fd49156a-35bd-426e-ab80-c5cb5d84415e",
         "c62038c9-6619-4ae6-af34-f5e44ad20808",
+        "c2e2acab-d487-41ff-aedd-9629dd478563",
         "830b197d-e4e3-453f-b8dc-93b8bedcea5f",
         "7dee056c-5f42-4a6f-808a-4a29372de119",
         "2ab23d6c-ea52-46e6-8c16-56d131e36ce8",

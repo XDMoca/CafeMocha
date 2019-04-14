@@ -25,6 +25,14 @@ enum Order
 	CafeLatte = 2,
 }
 
+//Also used as index for sprite to show
+enum CupContents
+{
+	EmptyCup = 0,
+	Espresso = 1,
+	Cappuccino = 2,
+}
+
 enum Ingredient
 {
 	Coffee,
