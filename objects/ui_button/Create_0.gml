@@ -38,6 +38,7 @@ enum VisualState
 }
 state = VisualState.active;
 script = noone;
+isClickable = true;
 length=15;
 timer=length;
 activate_ease=TwerpType.out_back;

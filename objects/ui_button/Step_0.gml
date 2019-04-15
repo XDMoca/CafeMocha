@@ -56,6 +56,12 @@ switch(state)
 //Detect Clicks
 if (state != VisualState.active) exit;
 
+if(!isClickable)
+{
+	image_index=2;
+	exit;
+}
+
 if(script != noone && position_meeting(mouse_gui_x,mouse_gui_y,id))
 {	//Moused Over with an existing script
 	image_index=1;
