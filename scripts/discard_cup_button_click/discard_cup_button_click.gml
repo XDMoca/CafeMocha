@@ -3,8 +3,8 @@
 /// @arg discardCupButton the discard cup button
 
 var discardCupButton = argument0;
-if(discardCupButton.drinkStation.cup != noone)
-{
-	instance_destroy(discardCupButton.drinkStation.cup);
-	discardCupButton.drinkStation.cup = noone;
-}
+if(discardCupButton.drinkStation.cup == noone)
+	return;
+	
+instance_destroy(discardCupButton.drinkStation.cup);
+discardCupButton.drinkStation.cup = noone;

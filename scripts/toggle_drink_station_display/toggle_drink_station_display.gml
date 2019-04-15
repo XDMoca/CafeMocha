@@ -8,18 +8,10 @@ var show = argument1;
 if(show)
 {
 	drinkStation.isMenuOpen = true;
-	instance_activate_object(drinkStation.btnCup);
-	instance_activate_object(drinkStation.btnDiscardCup);
-	instance_activate_object(drinkStation.btnEspresso);
-	instance_activate_object(drinkStation.btnFoamedMilk);
-	instance_activate_object(drinkStation.btnMilk);
+	instance_activate_object(ui_drink_station_button);
 }
 else
 {
 	drinkStation.isMenuOpen = false;
-	instance_deactivate_object(drinkStation.btnCup);
-	instance_deactivate_object(drinkStation.btnDiscardCup);
-	instance_deactivate_object(drinkStation.btnEspresso);
-	instance_deactivate_object(drinkStation.btnFoamedMilk);
-	instance_deactivate_object(drinkStation.btnMilk);
+	instance_deactivate_object(ui_drink_station_button);
 }

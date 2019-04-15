@@ -1,3 +1,1 @@
-if(party == noone)
-	return;
-show_debug_message(string(party.currentTimeWaiting / room_speed));
+show_debug_message(array_length_1d(trayItems));

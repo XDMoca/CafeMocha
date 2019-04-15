@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "6b2b430d-3551-4e63-9a18-833f06b55ecc",
+            "Value": {
+                "id": "0ccc12d6-8f6a-4f84-860f-1172622142b8",
+                "resourcePath": "objects\\btn_tray\\btn_tray.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6c0a8b67-9950-415f-9f88-11da7c759996",
             "Value": {
                 "id": "ec32cb2b-178e-4c5a-8495-8ce0f7e03eee",
@@ -820,6 +828,14 @@
                 "id": "ef30c7c3-99da-449c-af53-a8449d17832c",
                 "resourcePath": "objects\\obj_counter\\obj_counter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8ea6519b-ea71-43f8-b340-469bd6d13527",
+            "Value": {
+                "id": "71b63aeb-ac80-4c08-a252-f4deac71f519",
+                "resourcePath": "sprites\\spr_tray\\spr_tray.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1143,6 +1159,14 @@
             }
         },
         {
+            "Key": "d0f243e8-c6c3-41a3-8867-fa1455b9c82c",
+            "Value": {
+                "id": "ad08853a-8687-4a6b-b549-7ebfaef0ae35",
+                "resourcePath": "scripts\\tray_button_click\\tray_button_click.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d16b1026-7aaa-479e-baa0-55c9ae8b2a91",
             "Value": {
                 "id": "ff998ffe-24e2-4752-9f70-02c8a1c320b8",
@@ -1353,6 +1377,7 @@
         "90385be9-63d7-4766-91a6-427767f717f3",
         "6dda324c-fa33-4fe1-8cea-9865db1a22af",
         "54239b90-0896-4348-9c35-947a14cf8066",
+        "d0f243e8-c6c3-41a3-8867-fa1455b9c82c",
         "04b5a6fd-3016-4f5b-b52f-f4d20b4822aa",
         "06141a50-1829-4ee3-867c-19edca656d2f",
         "fd49156a-35bd-426e-ab80-c5cb5d84415e",
