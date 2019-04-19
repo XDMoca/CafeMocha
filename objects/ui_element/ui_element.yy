@@ -2,7 +2,7 @@
     "id": "9e4aa194-04e3-4415-a79d-173ef7b1c448",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ui_button",
+    "name": "ui_element",
     "eventList": [
         {
             "id": "f1d3afa1-2c9b-4c00-a270-451a243b7790",
@@ -92,7 +92,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "Anchor.top_left",
+            "value": "Anchor.middle_centre",
             "varName": "anchor",
             "varType": 6
         },

@@ -2,6 +2,7 @@ if(!can_move())
 	return;
 
 #region DrawInputPrompts
+draw_set_font(fnt_info_panel);
 colour = c_white;
 drawXPosition = obj_mocha.x;
 drawYPosition = obj_mocha.y;

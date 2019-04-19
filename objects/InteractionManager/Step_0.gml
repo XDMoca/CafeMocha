@@ -26,4 +26,12 @@ if(interactableInInteractionRange != noone)
 	return;
 }
 interactableTypeInInteractionRange = -1;
+
+interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_customer, false, true);
+if(interactableInInteractionRange != noone)
+{
+	interactableTypeInInteractionRange = InteractableType.Customer;
+	return;
+}
+interactableTypeInInteractionRange = -1;
 #endregion

@@ -2,7 +2,7 @@
     "id": "1cda3783-7403-4dd0-a7d8-fff961de3030",
     "modelName": "GMFont",
     "mvc": "1.0",
-    "name": "info_panel_font",
+    "name": "fnt_info_panel",
     "AntiAlias": 1,
     "TTFName": "",
     "ascenderOffset": 0,

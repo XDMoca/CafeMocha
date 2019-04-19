@@ -34,13 +34,40 @@
         "a008f808-2760-402f-8d12-c386e70f22b5",
         "c7bd7db2-f763-4f1a-8c7e-a8fc295e7619",
         "3eab1564-d192-41bb-928e-2befa90f1d06",
-        "d620de35-e46a-4e0f-8dcf-7583b86f21d7"
+        "d620de35-e46a-4e0f-8dcf-7583b86f21d7",
+        "4d5827fc-b705-4291-b730-a7794dc7fb2b"
     ],
     "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "DrinkStationButtons",
+            "name": "TrayMenu",
+            "id": "805e7b36-3ab3-40d3-afe5-f4948b385ca8",
+            "depth": -700,
+            "grid_x": 48,
+            "grid_y": 48,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_2A12CE3","id": "4d5827fc-b705-4291-b730-a7794dc7fb2b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2A12CE3","objId": "69109e4a-71d1-42b5-8955-eb179786c86b","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 384,"y": 192}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "DrinkStationScreen",
             "id": "a6427dc9-8171-4856-98c0-26df766af09b",
             "depth": -600,
             "grid_x": 32,

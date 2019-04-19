@@ -1,10 +1,13 @@
-/// @function give_cup(customerObject, cupObject)
-/// @description Gives the currently held cup to the customer
-/// @arg customerObject The customer object
-/// @arg cupObject The cup object
+/// @function give_cup(trayItemButton)
+/// @description Gives the cup belonging to this button to the customer
+/// @arg trayItemButton The tray item
 
-var customerObject = argument0;
-var cupObject = argument1;
+var trayItemButton = argument0;
+var interactionManager = InteractionManager;
+var cupObject = interactionManager.trayItems[trayItemButton.buttonIndex];
+var customerObject = interactionManager.interactableInInteractionRange;
+if(interactionManager.interactableTypeInInteractionRange != InteractableType.Customer)
+	return;
 
 if(cupObject == noone)
 	return;
@@ -20,4 +23,5 @@ customerObject.satisfactionRating = cupRating;
 customerObject.customerStatus = CustomerStatus.drinkingOrder;
 customerObject.alarm[0] = customerObject.timeToFinishDrink;
 cup = noone;
-holdingCup = false;
+
+hide_tray_menu();
