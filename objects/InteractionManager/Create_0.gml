@@ -2,7 +2,7 @@ range = 50;
 holdingCup = false;
 cup = noone;
 
-trayItems = [];
+trayItems = ds_list_create();
 maxTrayItems = 5;
 
 party = noone;

@@ -11,10 +11,10 @@ instance_activate_object(btn_tray_menu_item);
 var j = 0;
 for(var i = 0; i<interactionManager.maxTrayItems; i++)
 {
-	if(j < array_length_1d(interactionManager.trayItems))
+	if(j < ds_list_size(interactionManager.trayItems))
 	{
 		trayMenu.trayItems[i].isClickable = true;
-		trayMenu.trayItems[i].itemText =  "Cappuccino";
+		trayMenu.trayItems[i].itemText =  get_drink_name(interactionManager.trayItems[|i]);
 		j++;
 	}
 	else

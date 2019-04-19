@@ -9,9 +9,9 @@ if(cup != noone)
 {
 	interactionManager = InteractionManager;
 	
-	if(array_length_1d(interactionManager.trayItems) >= interactionManager.maxTrayItems)
+	if(ds_list_size(interactionManager.trayItems) >= interactionManager.maxTrayItems)
 		return;
 	
-	interactionManager.trayItems[array_length_1d(interactionManager.trayItems)] = cup;
+	ds_list_add(interactionManager.trayItems, cup);
 	trayButton.drinkStation.cup = noone;
 }
