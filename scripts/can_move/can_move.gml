@@ -4,7 +4,8 @@
 if(textbox_exists())
 	return false;
 	
-if(obj_drink_station.isMenuOpen)
-	return false;
+if(instance_exists(obj_drink_station))
+	if(obj_drink_station.isMenuOpen)
+		return false;
 	
 return true;
