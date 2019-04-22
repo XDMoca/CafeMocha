@@ -1,5 +1,5 @@
 #region InputCheck
-if(!can_move())
+if(!script_execute(can_move))
 {
 	leftAxisInput = 0;
 	rightAxisInput = 0;

@@ -1,6 +1,6 @@
 event_inherited();
 trayItems = [];
-var interactionManager = InteractionManager;
+var interactionManager = InteractionManager_Open;
 var yTop = y - (sprite_height/2);
 var buttonHeight = sprite_height/interactionManager.maxTrayItems;
 for(var i = 0; i<interactionManager.maxTrayItems; i++)

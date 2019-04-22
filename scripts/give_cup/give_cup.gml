@@ -3,7 +3,7 @@
 /// @arg trayItemButton The tray item
 
 var trayItemButton = argument0;
-var interactionManager = InteractionManager;
+var interactionManager = InteractionManager_Open;
 var cupObject = interactionManager.trayItems[| trayItemButton.buttonIndex];
 var customerObject = interactionManager.interactableInInteractionRange;
 if(interactionManager.interactableTypeInInteractionRange != InteractableType.Customer)

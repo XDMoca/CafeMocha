@@ -12,11 +12,5 @@ panelColour = make_color_rgb(102, 34, 0);
 #endregion
 
 #region Equipment
-btnCup = btn_cup;
-btnDiscardCup = btn_discard_cup;
-btnMilk = btn_milk;
-btnFoamedMilk = btn_foamed_milk;
-btnEspresso = btn_espresso;
-
 toggle_drink_station_display(id, false);
 #endregion

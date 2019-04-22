@@ -7,7 +7,7 @@ var cup = trayButton.drinkStation.cup;
 
 if(cup != noone)
 {
-	interactionManager = InteractionManager;
+	interactionManager = InteractionManager_Open;
 	
 	if(ds_list_size(interactionManager.trayItems) >= interactionManager.maxTrayItems)
 		return;

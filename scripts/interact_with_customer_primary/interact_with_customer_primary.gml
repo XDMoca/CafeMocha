@@ -27,10 +27,6 @@ switch(customerObject.customerStatus)
 			take_order(customerObject);
 	break;
 	case CustomerStatus.waitingForOrder:
-		//if(cup != noone)
-		//	give_cup(customerObject, cup);
-		//else
-		//	take_order(customerObject);
-		show_tray_menu(InteractionManager);
+		show_tray_menu(InteractionManager_Open);
 	break;
 }

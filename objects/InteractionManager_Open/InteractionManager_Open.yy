@@ -2,7 +2,7 @@
     "id": "a49d957b-bcef-44c3-9c01-087732838d91",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "InteractionManager",
+    "name": "InteractionManager_Open",
     "eventList": [
         {
             "id": "42cf9ead-9243-4cc4-97a6-5f246321e613",

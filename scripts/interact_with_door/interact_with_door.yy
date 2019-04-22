@@ -1,8 +1,8 @@
 {
-    "id": "88c4ec53-d90c-446f-86e7-e8eaa684bc7e",
+    "id": "451a6b14-922a-44c7-a179-57275a5c9384",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "can_move",
+    "name": "interact_with_door",
     "IsCompatibility": false,
     "IsDnD": false
 }

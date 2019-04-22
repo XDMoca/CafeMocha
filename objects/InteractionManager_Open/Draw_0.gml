@@ -1,0 +1,1 @@
+draw_line_width_colour(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, 2, c_blue, c_blue);

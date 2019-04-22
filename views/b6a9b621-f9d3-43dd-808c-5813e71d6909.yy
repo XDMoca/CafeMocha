@@ -8,7 +8,8 @@
         "31cdce7e-8a38-41a3-b66f-67543c7ad756",
         "f25b71c0-3617-486e-b694-0f521064167b",
         "c2fdcaf8-b517-419f-aef2-14b6364b9e80",
-        "6ee2b40b-dd1b-4351-99d1-f89a89b66627"
+        "6ee2b40b-dd1b-4351-99d1-f89a89b66627",
+        "a4f7cbb2-2363-4169-96dd-478e6d516688"
     ],
     "filterType": "GMSprite",
     "folderName": "RoomItems",

@@ -45,7 +45,8 @@ enum InteractableType
 {
 	Counter,
 	DrinkStation,
-	Customer
+	Customer,
+	Door
 }
 
 enum CustomerType

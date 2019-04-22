@@ -1,1 +1,0 @@
-show_debug_message(array_length_1d(trayItems));
