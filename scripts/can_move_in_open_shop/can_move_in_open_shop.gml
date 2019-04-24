@@ -10,4 +10,7 @@ if(obj_drink_station.isMenuOpen)
 if(instance_exists(ui_tray_menu_panel))
 	return false;
 	
+if(GameManager.inTransition)
+	return false;
+	
 return true;

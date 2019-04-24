@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "5bd95cff-e786-4486-b2cd-fa7b5aab566a",
+            "Value": {
+                "id": "d815f0db-fd2a-4a50-89af-8232670c0048",
+                "resourcePath": "sounds\\snd_door_bell\\snd_door_bell.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "60afac7c-594f-4d4b-8825-bb114ee0b7a8",
             "Value": {
                 "id": "46aa9b27-2526-47cf-90a6-8982b088272c",
@@ -1419,6 +1427,14 @@
             "Value": {
                 "id": "da7c88f9-becf-43b7-8c91-b95c393ef0db",
                 "resourcePath": "views\\ef91e5d0-5b7d-423e-9a13-d06a8370bd21.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0d08996-7203-4e52-9605-aebb5e9a2647",
+            "Value": {
+                "id": "5d467191-9a2b-4060-af52-40bdb4e6933b",
+                "resourcePath": "views\\f0d08996-7203-4e52-9605-aebb5e9a2647.yy",
                 "resourceType": "GMFolder"
             }
         },
