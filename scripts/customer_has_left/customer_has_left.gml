@@ -1,5 +1,5 @@
 /// @function customer_has_left(partyObject)
-/// @description Checks if all customers in the current party have left and destroys the partyif they have
+/// @description Checks if all customers in the current party have left and destroys the party if they have
 /// @arg partyObject The party object
 
 var partyObject = argument0;

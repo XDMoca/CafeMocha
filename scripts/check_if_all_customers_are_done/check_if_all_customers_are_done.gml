@@ -10,6 +10,8 @@ for(var i = 0; i < array_length_1d(partyObject.customers); i++)
 		return;
 }
 
+pay(partyObject);
+
 var spawner = CustomerSpawner;
 for(var i = 0; i < array_length_1d(partyObject.customers); i++)
 {

@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0e111916-7d7a-40cb-9ea2-40c744d57835",
+            "Value": {
+                "id": "c5216f5b-2505-4527-bde3-f3208f4a03fe",
+                "resourcePath": "scripts\\pay\\pay.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0f5f9307-1395-44e5-986d-f6309db08543",
             "Value": {
                 "id": "3a19099d-666e-4901-9df0-6d27c4474046",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "1c73c8fc-dab4-4724-8fa6-b12eb4d3954e",
+            "Value": {
+                "id": "80647901-1367-4a2c-847a-f2e80552d6c1",
+                "resourcePath": "extensions\\Draw_Text_Outlined\\Draw_Text_Outlined.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "1cda3783-7403-4dd0-a7d8-fff961de3030",
             "Value": {
                 "id": "72af3578-ef37-483b-93fc-97682e8f3f84",
@@ -228,6 +244,14 @@
                 "id": "883db821-4d75-4960-9297-87aeed3e601f",
                 "resourcePath": "sprites\\spr_customer_kaishain_2_walk_right\\spr_customer_kaishain_2_walk_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23561129-95bf-4240-b1ed-6068e215e933",
+            "Value": {
+                "id": "30cdf538-a0f4-48ee-9a98-e03704714049",
+                "resourcePath": "notes\\compatibility_report_250419_2036353635.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -476,6 +500,14 @@
                 "id": "e8874eb3-2453-44f2-9c2e-e327977adcbd",
                 "resourcePath": "scripts\\interact_with_door\\interact_with_door.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "46a171c2-6423-4209-ab97-5d5ad5b70977",
+            "Value": {
+                "id": "a34b1ca6-6ce0-4700-98d1-65092f73e73a",
+                "resourcePath": "views\\46a171c2-6423-4209-ab97-5d5ad5b70977.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -983,6 +1015,14 @@
             }
         },
         {
+            "Key": "99a8fe37-b18b-46da-843f-6e3c441d1281",
+            "Value": {
+                "id": "8132e972-268a-448d-939d-db3e95af77cf",
+                "resourcePath": "views\\99a8fe37-b18b-46da-843f-6e3c441d1281.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9a5cd941-381c-4e09-9a7a-600e628c830a",
             "Value": {
                 "id": "1d7f43c4-ab83-496c-a81e-bf0ecfb883d8",
@@ -1100,6 +1140,14 @@
                 "id": "3777a6e8-2f6b-490f-92b2-ca34fe412753",
                 "resourcePath": "views\\b0e3bf63-da27-4831-b2ff-c9b6267630e7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b1b94231-b6aa-41dd-b8ec-f3bb1d938856",
+            "Value": {
+                "id": "0a4ba181-fcee-4328-bda9-dac519b442ea",
+                "resourcePath": "fonts\\fnt_money\\fnt_money.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1543,6 +1591,14 @@
             }
         },
         {
+            "Key": "fea3414c-df4c-4aef-9bf1-fc0358137187",
+            "Value": {
+                "id": "ba8e9642-ae49-43d0-8e00-9dd0738c69a6",
+                "resourcePath": "scripts\\draw_text_outline\\draw_text_outline.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ff053377-ea8c-4668-856f-4314e4e79d5c",
             "Value": {
                 "id": "04a27430-b840-431c-bb0a-ac4b89943a02",
@@ -1567,6 +1623,7 @@
         "1a28c200-f613-44c9-b3bb-6c4020bbf5ec",
         "50a0344c-e6a1-4425-bfc6-baee7ca5557f",
         "8acbf024-9470-4112-9541-097c080395fd",
+        "0e111916-7d7a-40cb-9ea2-40c744d57835",
         "80f9933e-2a47-4da8-aad8-a9470bf52e8c",
         "6dda324c-fa33-4fe1-8cea-9865db1a22af",
         "54239b90-0896-4348-9c35-947a14cf8066",
@@ -1595,7 +1652,8 @@
         "b7f18467-1c19-4793-b142-236ae266754f",
         "8a657ab6-e97a-499a-bc2f-3f151ee00104",
         "6165fee9-88eb-4e20-8f60-d35eb4d7ab44",
-        "3a1bbc3f-c8a5-462a-827e-0fc12fae32d3"
+        "3a1bbc3f-c8a5-462a-827e-0fc12fae32d3",
+        "fea3414c-df4c-4aef-9bf1-fc0358137187"
     ],
     "tutorial": ""
 }
