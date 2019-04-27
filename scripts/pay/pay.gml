@@ -4,3 +4,4 @@
 
 var partyObject = argument0;
 GameManager.moneyGained += (partyObject.numberOfCustomersInParty * 50)
+audio_play_sound(snd_cash_register, 10, false);

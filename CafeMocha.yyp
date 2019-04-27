@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "863b296d-2eff-4a66-99e1-4ce41303d02c",
+            "Value": {
+                "id": "f97e8d14-0dc1-43ca-b0e5-1c1469acb578",
+                "resourcePath": "sounds\\snd_cash_register\\snd_cash_register.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8783c3d2-27c5-484f-b866-6803c5477ca2",
             "Value": {
                 "id": "dd21e2e1-fae5-4f51-9049-dbcbc00b2e8a",
