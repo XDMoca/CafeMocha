@@ -31,4 +31,8 @@ if(spawnX != 0 && spawnY != 0)
 	}
 	customerParty.numberOfCustomersInParty = array_length_1d(customerParty.customers);
 }
-alarm[0] = irandom_range(minSpawnInterval, maxSpawnInterval);
+
+if(spawnerActive)
+{
+	alarm[0] = irandom_range(minSpawnInterval, maxSpawnInterval);
+}

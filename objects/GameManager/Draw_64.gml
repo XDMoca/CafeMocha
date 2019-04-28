@@ -33,7 +33,11 @@ if(inTransition)
 		if(currentAlpha >= 1)
 		{
 			room_goto(targetRoom);
-			audio_play_sound(roomEnteredSound, 10, false);
+			if(roomEnteredSound != noone)
+			{
+				audio_play_sound(roomEnteredSound, 10, false);
+				roomEnteredSound = noone;
+			}
 		}
 	}
 	draw_set_alpha(currentAlpha);
