@@ -1,6 +1,7 @@
 moveSpeed = const_move_speed;
 moveX = 0;
 moveY = 0;
+lastImageIndex = 0;
 
 leftSprite = spr_mocha_walk_left;
 rightSprite = spr_mocha_walk_right;

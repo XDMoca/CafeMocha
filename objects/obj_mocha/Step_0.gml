@@ -1,4 +1,4 @@
-#region InputCheck
+#region Input Check
 if(!script_execute(can_move))
 {
 	leftAxisInput = 0;
@@ -63,6 +63,17 @@ switch(direction)
 
 x += moveX;
 y += moveY;
+#endregion
+
+#region Footstep Sound
+var currentImageIndex = floor(image_index);
+if((currentImageIndex == 1 && lastImageIndex != 1) || (currentImageIndex == 3 && lastImageIndex != 3))
+{
+	var pitch = random_range(.9,1.1);
+	audio_sound_pitch(snd_footstep, pitch);
+	audio_play_sound(snd_footstep, 9, false);
+}
+lastImageIndex = currentImageIndex;
 #endregion
 
 depth = -y;
