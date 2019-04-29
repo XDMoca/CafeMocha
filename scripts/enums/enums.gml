@@ -54,3 +54,11 @@ enum CustomerType
 	Kaishain = 0,
 	Seifuku = 1,
 }
+
+enum TimeOfDay
+{
+	Morning = 0,
+	Afternoon = 1,
+	Evening = 2,
+	Night = 3
+}
