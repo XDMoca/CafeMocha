@@ -1271,6 +1271,14 @@
             }
         },
         {
+            "Key": "beee920d-1325-4c82-addd-b4da21845af6",
+            "Value": {
+                "id": "2f403892-cca3-445c-8c01-ea98ff2fce64",
+                "resourcePath": "scripts\\get_day_text\\get_day_text.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bf426bfa-6e5c-4315-bcc0-ae46c512a73e",
             "Value": {
                 "id": "48e7f5c2-ca0a-4c1b-9821-57f56f30abaa",
@@ -1691,6 +1699,7 @@
         "f6c28b5c-b81c-4c2a-90d8-da2d8c6d5570",
         "307bf8a7-8cc1-4b49-8221-9f04943bb3ba",
         "49aac897-945b-41f1-8be2-ae40babf5709",
+        "beee920d-1325-4c82-addd-b4da21845af6",
         "984fd56c-107c-4781-969e-8789524026b3",
         "90385be9-63d7-4766-91a6-427767f717f3",
         "830b197d-e4e3-453f-b8dc-93b8bedcea5f",

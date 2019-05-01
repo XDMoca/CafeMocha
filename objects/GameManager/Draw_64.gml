@@ -1,5 +1,5 @@
 #region Display Time
-var timeText = get_time_text(timeOfDay);
+var timeText = get_day_text(dayOfWeek) + " - " + get_time_text(timeOfDay);
 draw_set_font(fnt_time);
 draw_set_color(c_white);
 draw_text_outline(padding, padding, timeText, 3, c_black, 8);

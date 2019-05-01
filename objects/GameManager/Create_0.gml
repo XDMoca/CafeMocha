@@ -1,6 +1,6 @@
 randomize();
 
-#region RoomTransition
+#region Room Transition
 targetRoom = rm_shop_closed;
 inTransition = true;
 currentAlpha = 1;
@@ -16,7 +16,11 @@ moneyGained = 0;
 #endregion
 
 #region Time Of Day
-timeOfDay = TimeOfDay.Morning;
+timeOfDay = TimeOfDay.Night;
+#endregion
+
+#region Day Of Week
+dayOfWeek = DayOfWeek.Sunday;
 #endregion
 
 #region Display
