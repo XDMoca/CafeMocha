@@ -1,31 +1,22 @@
 {
-    "id": "f38a3ef8-989e-45fa-80fa-6dbccc4b6f95",
+    "id": "d8f2fd40-2d69-494f-8163-9291e70d18ee",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "btn_tray_menu_item",
+    "name": "btn_menu_continue",
     "eventList": [
         {
-            "id": "7998c9a4-9b32-4eb6-a08e-d13c2ddc8d34",
+            "id": "3684e727-8f13-48e5-9f32-38f00c4c943c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "f38a3ef8-989e-45fa-80fa-6dbccc4b6f95"
+            "m_owner": "d8f2fd40-2d69-494f-8163-9291e70d18ee"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "8ce11d7e-6317-4268-aba9-54203c6c7bf3",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "9e4aa194-04e3-4415-a79d-173ef7b1c448",
-            "propertyId": "b5d914d5-e91b-4d6f-95b7-3ef1b25d60fb",
-            "value": "Anchor.middle_centre"
-        }
-    ],
+    "overriddenProperties": null,
     "parentObjectId": "9e4aa194-04e3-4415-a79d-173ef7b1c448",
     "persistent": false,
     "physicsAngularDamping": 0.1,

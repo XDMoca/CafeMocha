@@ -28,7 +28,7 @@ enum Aspects
 
 image_speed=0;
 
-#region Positioning and State Animation Properties
+#region Positioning and State Animation 
 enum VisualState
 {
 	active,
@@ -45,6 +45,12 @@ activate_ease=TwerpType.out_back;
 deactivate_ease=TwerpType.in_back;
 active_pos=[0,0];
 inactive_offset=[0,0];
+#endregion
+
+#region Text
+displayText = "";
+textFont = fnt_info_panel;
+textColour = make_color_rgb(160, 65, 13);
 #endregion
 
 //Update Position

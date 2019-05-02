@@ -1,20 +1,22 @@
-#region Display Time
-var timeText = get_day_text(dayOfWeek) + " - " + get_time_text(timeOfDay);
-draw_set_font(fnt_time);
-draw_set_color(c_white);
-draw_text_outline(padding, padding, timeText, 3, c_black, 8);
-var dayTextY = string_height(timeText) + padding;
-#endregion
+if(showHud)
+{
+	#region Display Time
+	var timeText = get_day_text(dayOfWeek) + " - " + get_time_text(timeOfDay);
+	draw_set_font(fnt_time);
+	draw_set_color(c_white);
+	draw_text_outline(padding, padding, timeText, 3, c_black, 8);
+	var dayTextY = string_height(timeText) + padding;
+	#endregion
 
-#region Display Money
-var moneyText = "$" + string(money);
-draw_set_font(fnt_money);
-draw_set_color(c_yellow);
-var moneyTextY = dayTextY;
-draw_text_outline(padding, moneyTextY, moneyText, 3, c_black, 8);
-#endregion
+	#region Display Money
+	var moneyText = "$" + string(money);
+	draw_set_font(fnt_money);
+	draw_set_color(c_yellow);
+	var moneyTextY = dayTextY;
+	draw_text_outline(padding, moneyTextY, moneyText, 3, c_black, 8);
+	#endregion
 
-#region Display Money Gained
+	#region Display Money Gained
 if(moneyGained > 0)
 {
 	var moneyGainedText = "+$" + string(moneyGained);
@@ -24,6 +26,7 @@ if(moneyGained > 0)
 	moneyGained--;
 }
 #endregion
+}
 
 #region Room Transition
 if(inTransition)

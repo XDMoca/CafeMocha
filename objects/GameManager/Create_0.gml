@@ -1,8 +1,8 @@
 randomize();
 
 #region Room Transition
-targetRoom = rm_shop_closed;
-inTransition = true;
+targetRoom = noone;
+inTransition = false;
 currentAlpha = 1;
 alphaChangeRate = 0.05;
 roomEnteredSound = noone;
@@ -24,5 +24,6 @@ dayOfWeek = DayOfWeek.Sunday;
 #endregion
 
 #region Display
+showHud = false;
 padding = 10;
 #endregion

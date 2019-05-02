@@ -14,13 +14,13 @@ for(var i = 0; i<interactionManager.maxTrayItems; i++)
 	if(j < ds_list_size(interactionManager.trayItems))
 	{
 		trayMenu.trayItems[i].isClickable = true;
-		trayMenu.trayItems[i].itemText =  get_drink_name(interactionManager.trayItems[|i]);
+		trayMenu.trayItems[i].displayText =  get_drink_name(interactionManager.trayItems[|i]);
 		j++;
 	}
 	else
 	{
 		trayMenu.trayItems[i].isClickable = false;
-		trayMenu.trayItems[i].itemText =  "";
+		trayMenu.trayItems[i].displayText =  "";
 	}
 	trayMenu.trayItems[i].buttonIndex =  i;
 }
