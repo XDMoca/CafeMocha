@@ -1,10 +1,12 @@
 /// @description Update the UI Element's Position	
 //Gui Size
-var _gw = display_get_gui_width();
-var _gh = display_get_gui_height();
+//var _gw = display_get_gui_width();
+//var _gh = display_get_gui_height();
+var _gw = view_get_wport(0);
+var _gh = view_get_hport(0);
 //View Guide Size
-var _vw = window_get_width();
-var _vh = window_get_height();
+var _vw = view_get_wport(0);
+var _vh = view_get_hport(0);
 //Center Position for Guide
 var _vcx = _vw/2;
 var _vcy = _vh/2;
