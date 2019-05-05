@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0b839c20-ce46-4717-b026-78150f4dce76",
+            "Value": {
+                "id": "9566b16b-1b07-4f9f-a3e5-135d3a17d54a",
+                "resourcePath": "fonts\\fnt_speech_bubble\\fnt_speech_bubble.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0d85d016-edb4-4eb4-a079-b207c29bbb0d",
             "Value": {
                 "id": "9b569db3-46f8-4eba-838e-32e8d1dd58b6",
@@ -226,7 +234,7 @@
             "Key": "1cda3783-7403-4dd0-a7d8-fff961de3030",
             "Value": {
                 "id": "72af3578-ef37-483b-93fc-97682e8f3f84",
-                "resourcePath": "fonts\\fnt_info_panel\\fnt_info_panel.yy",
+                "resourcePath": "fonts\\fnt_default_button\\fnt_default_button.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -1227,6 +1235,14 @@
             "Value": {
                 "id": "0a4ba181-fcee-4328-bda9-dac519b442ea",
                 "resourcePath": "fonts\\fnt_money\\fnt_money.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "b35d5f2e-a05a-4ba4-ba96-5dcdfb9db834",
+            "Value": {
+                "id": "aaf82144-2416-465d-91a1-716569d4cd08",
+                "resourcePath": "fonts\\fnt_interaction_prompt\\fnt_interaction_prompt.yy",
                 "resourceType": "GMFont"
             }
         },

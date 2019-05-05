@@ -6,7 +6,7 @@ draw_self();
 
 if(displayText != "")
 {
-	draw_set_font(fnt_info_panel);
+	draw_set_font(textFont);
 	var xPos = x -(string_width(displayText)/2)
 	var yPos = y + (sprite_height/2) - (string_height(displayText)/2);
 	draw_text_color(xPos, yPos, displayText, textColour, textColour, textColour, textColour, 1);

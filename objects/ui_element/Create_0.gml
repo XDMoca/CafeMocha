@@ -49,7 +49,7 @@ inactive_offset=[0,0];
 
 #region Text
 displayText = "";
-textFont = fnt_info_panel;
+textFont = fnt_default_button;
 textColour = make_color_rgb(160, 65, 13);
 #endregion
 
