@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "12e40f20-8484-42f9-9cd8-67e1c41f714b",
+            "Value": {
+                "id": "680518c2-802c-4665-b667-379960629681",
+                "resourcePath": "scripts\\load_game\\load_game.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "14ff0bd3-aa7a-41fd-a2db-9bde814d80b0",
             "Value": {
                 "id": "7862f4f9-8529-4ec2-a7e1-e39f0653d158",
@@ -819,6 +827,14 @@
             "Value": {
                 "id": "b54b86b4-56e8-4248-8197-071825c1576f",
                 "resourcePath": "scripts\\can_move_in_closed_shop\\can_move_in_closed_shop.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "77fefcd2-e51e-422a-bf57-d67cc678f68b",
+            "Value": {
+                "id": "aa5d4872-20b9-4e7a-8cc9-8c2a888ade33",
+                "resourcePath": "scripts\\save_game\\save_game.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1764,6 +1780,8 @@
         "307bf8a7-8cc1-4b49-8221-9f04943bb3ba",
         "49aac897-945b-41f1-8be2-ae40babf5709",
         "beee920d-1325-4c82-addd-b4da21845af6",
+        "77fefcd2-e51e-422a-bf57-d67cc678f68b",
+        "12e40f20-8484-42f9-9cd8-67e1c41f714b",
         "984fd56c-107c-4781-969e-8789524026b3",
         "90385be9-63d7-4766-91a6-427767f717f3",
         "830b197d-e4e3-453f-b8dc-93b8bedcea5f",

@@ -27,3 +27,7 @@ dayOfWeek = DayOfWeek.Sunday;
 showHud = false;
 padding = 10;
 #endregion
+
+#region Game Save Data
+gameSaveDataMap = ds_map_create();
+#endregion
