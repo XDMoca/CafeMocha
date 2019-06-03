@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "04b5a6fd-3016-4f5b-b52f-f4d20b4822aa",
-            "Value": {
-                "id": "ebd2dd30-abb3-40eb-9b92-9bcab80779cb",
-                "resourcePath": "scripts\\cup_button_click\\cup_button_click.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "06141a50-1829-4ee3-867c-19edca656d2f",
             "Value": {
                 "id": "b0b1210f-8577-43db-ad54-229d4af11ac4",
@@ -127,14 +119,6 @@
             }
         },
         {
-            "Key": "0f5f9307-1395-44e5-986d-f6309db08543",
-            "Value": {
-                "id": "3a19099d-666e-4901-9df0-6d27c4474046",
-                "resourcePath": "scripts\\interact_with_counter_primary\\interact_with_counter_primary.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "1080c446-9605-4d82-8267-9321bbf66a52",
             "Value": {
                 "id": "25b18185-3c72-4104-868d-e5c1df1a7f3d",
@@ -148,14 +132,6 @@
                 "id": "17fa7ed4-ed21-4ee2-bb60-1355a261fd62",
                 "resourcePath": "views\\1194dcf2-bf8a-444f-92ea-5047afe6593d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "11e5e9db-509b-45b5-a5eb-542b39f73a95",
-            "Value": {
-                "id": "ab4023e6-677d-436c-8315-77c4ab22bc23",
-                "resourcePath": "sprites\\spr_espresso\\spr_espresso.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -399,10 +375,18 @@
             }
         },
         {
-            "Key": "318842ef-e8fc-469c-8310-6ceff828f33d",
+            "Key": "30ba8d99-1a0e-46c4-917c-7f757ec60921",
             "Value": {
-                "id": "61fee5a9-d2f0-4af9-9780-3940ca61c847",
-                "resourcePath": "objects\\btn_cup\\btn_cup.yy",
+                "id": "06e72e47-5b06-4d3d-8608-17ed51844221",
+                "resourcePath": "sprites\\spr_stop_mixing\\spr_stop_mixing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "31c5ceb3-85ca-4e8a-a890-ac387d3e5372",
+            "Value": {
+                "id": "8591c5a1-3341-431c-912b-dd5b452be12c",
+                "resourcePath": "objects\\btn_stop_mixing\\btn_stop_mixing.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -460,6 +444,14 @@
                 "id": "61a704db-cff3-4fad-bf57-171ad43f2b22",
                 "resourcePath": "scripts\\textbox_set_speed\\textbox_set_speed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3778b6ec-fcc5-4310-8397-b5088adeae90",
+            "Value": {
+                "id": "597aefaf-4808-4a91-9921-c17d34465f34",
+                "resourcePath": "sprites\\spr_rhythm_marker\\spr_rhythm_marker.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -599,14 +591,6 @@
             }
         },
         {
-            "Key": "4c989894-f021-49dc-8eb9-e660d3f704c4",
-            "Value": {
-                "id": "7153c62e-c4e0-46a9-b67e-f02b09a45616",
-                "resourcePath": "sprites\\spr_cup\\spr_cup.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4f7eb15a-caa7-4da1-9ff7-2419b09066e1",
             "Value": {
                 "id": "7462bd29-b4ff-44b3-b0f1-58b5f9d3d8de",
@@ -619,14 +603,6 @@
             "Value": {
                 "id": "90d4e391-4bf8-4690-a42e-fc24e6b322f2",
                 "resourcePath": "scripts\\check_if_all_customers_are_done\\check_if_all_customers_are_done.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "54239b90-0896-4348-9c35-947a14cf8066",
-            "Value": {
-                "id": "0cd744b1-1395-460f-9843-0affd0ec2c28",
-                "resourcePath": "scripts\\espresso_button_click\\espresso_button_click.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -668,6 +644,14 @@
                 "id": "e8e4058a-b66b-4a69-b866-063dba74fcc7",
                 "resourcePath": "scripts\\textbox_draw_bubble\\textbox_draw_bubble.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6667fe30-e5c0-4674-b586-ccc2529bd33f",
+            "Value": {
+                "id": "ee3f9d8c-d921-4832-9372-42d10967d88b",
+                "resourcePath": "sprites\\spr_rhythm_icon_bean\\spr_rhythm_icon_bean.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -983,6 +967,14 @@
             }
         },
         {
+            "Key": "88f7bd31-1e37-4f25-b962-4a53abff4e21",
+            "Value": {
+                "id": "94b29406-f18f-4b65-92b5-fd8a67ebdfb6",
+                "resourcePath": "scripts\\stop_mixing_button_click\\stop_mixing_button_click.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8a657ab6-e97a-499a-bc2f-3f151ee00104",
             "Value": {
                 "id": "5721da08-b4e8-4a3b-84d2-21007a63902a",
@@ -1127,6 +1119,14 @@
             }
         },
         {
+            "Key": "9cc6c904-ca36-49ce-814f-a34775da88e5",
+            "Value": {
+                "id": "1a504735-3d18-4eb7-9ca9-06bd6ae3b396",
+                "resourcePath": "objects\\btn_start_mixing\\btn_start_mixing.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9dcbdd4d-d0f4-42b9-b796-cdeafd7f2c7a",
             "Value": {
                 "id": "4756dcee-1fb0-4398-ac2e-8644662f4abc",
@@ -1140,6 +1140,14 @@
                 "id": "bbe96233-3533-4523-aebe-0ad7f2172427",
                 "resourcePath": "objects\\ui_element\\ui_element.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a0f192c5-eb0d-4d87-b979-fdcf8dbb6031",
+            "Value": {
+                "id": "f3dff781-4af9-4811-9034-dcd2fd3befa5",
+                "resourcePath": "scripts\\start_mixing_button_click\\start_mixing_button_click.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1170,16 +1178,8 @@
             "Key": "a626df02-e6d9-42ee-bd61-d033d7b3b0b6",
             "Value": {
                 "id": "df465fee-cd91-42a5-9324-16fa6d061a64",
-                "resourcePath": "objects\\btn_foamed_milk\\btn_foamed_milk.yy",
+                "resourcePath": "objects\\btn_discard_cup\\btn_discard_cup.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a6293997-0856-4857-9791-02d84bcbe7a4",
-            "Value": {
-                "id": "0bd54ee1-b70b-4ed4-98a5-a51cd98e01bb",
-                "resourcePath": "sprites\\spr_foamed_milk\\spr_foamed_milk.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1196,6 +1196,14 @@
                 "id": "a18dab15-5695-48a9-8ad1-fbbcf62c33c0",
                 "resourcePath": "views\\07d8372e-cdc0-4169-b5dc-625eddaf25bb-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab55cbc6-f34b-446f-bf44-27fcb7530986",
+            "Value": {
+                "id": "20825e49-037c-488a-8fea-29664ba8db8f",
+                "resourcePath": "sprites\\spr_start_mixing\\spr_start_mixing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1279,14 +1287,6 @@
             }
         },
         {
-            "Key": "b6f37d06-02f7-469d-a2b8-285f8ec7da56",
-            "Value": {
-                "id": "6359d774-9e63-4632-9bc5-d32fe67c1e8d",
-                "resourcePath": "objects\\btn_discard_cup\\btn_discard_cup.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b7f18467-1c19-4793-b142-236ae266754f",
             "Value": {
                 "id": "6a2e340b-dfac-4233-9cf6-a1a8130949f5",
@@ -1316,6 +1316,14 @@
                 "id": "0dce5f3e-fe16-4e73-aea6-bd8fac842909",
                 "resourcePath": "views\\bc24e11b-d154-4ba4-9625-5ac364b2164c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bc75e96e-219b-4da2-9b59-a3994c0b4817",
+            "Value": {
+                "id": "6e7cbfd9-4ba4-47eb-bc3c-015666698932",
+                "resourcePath": "objects\\ui_rhythm_icon\\ui_rhythm_icon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1391,14 +1399,6 @@
             }
         },
         {
-            "Key": "c62038c9-6619-4ae6-af34-f5e44ad20808",
-            "Value": {
-                "id": "e3ae1b62-f220-4ab7-be81-3f2dd6c53a19",
-                "resourcePath": "scripts\\milk_button_click\\milk_button_click.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "c64e2b98-010e-406b-ad19-ae2fa7583bc7",
             "Value": {
                 "id": "d9fc4584-7800-4fe4-8901-6e601f487bf1",
@@ -1431,14 +1431,6 @@
             }
         },
         {
-            "Key": "c98a08ba-a5e8-44c2-a784-fbdc9dab583e",
-            "Value": {
-                "id": "a3b4ae98-2a72-4151-9db8-eaede55a04a7",
-                "resourcePath": "sprites\\spr_milk\\spr_milk.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cbb54f7b-e57b-4e21-8677-ee0864636539",
             "Value": {
                 "id": "9336ea82-0927-4e9c-90d0-5c40377ba792",
@@ -1463,10 +1455,10 @@
             }
         },
         {
-            "Key": "ccea7df6-150d-4458-839d-991ea57d3e82",
+            "Key": "cd4c8dfc-e4c3-4ca8-9517-f5b98752ef49",
             "Value": {
-                "id": "17ee55b1-8f63-461f-a983-a1b76777aaef",
-                "resourcePath": "objects\\btn_milk\\btn_milk.yy",
+                "id": "5df3d580-d1a7-41a0-87c8-42abf8f1946a",
+                "resourcePath": "objects\\ui_rhythm_marker\\ui_rhythm_marker.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1655,14 +1647,6 @@
             }
         },
         {
-            "Key": "f32ff8b3-b63a-4b39-82c0-aa4bd5b567dd",
-            "Value": {
-                "id": "f40a682d-b75e-43f5-9847-a94345ca08e9",
-                "resourcePath": "objects\\btn_espresso\\btn_espresso.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f38a3ef8-989e-45fa-80fa-6dbccc4b6f95",
             "Value": {
                 "id": "f11aa559-90e4-4c73-ac0b-57b5eae33da1",
@@ -1735,14 +1719,6 @@
             }
         },
         {
-            "Key": "fd49156a-35bd-426e-ab80-c5cb5d84415e",
-            "Value": {
-                "id": "cd4bcac0-b1c0-4a22-b775-e7438c57e4a4",
-                "resourcePath": "scripts\\foamed_milk_button_click\\foamed_milk_button_click.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "fe0902a5-70db-4e0e-9dab-eb4cfbb3b6fd",
             "Value": {
                 "id": "cd3fe8bf-6b02-47d2-829d-3d9b6142d6c2",
@@ -1773,7 +1749,6 @@
         "e3234da7-3bc0-4701-abb5-d507d0cb4da5",
         "8533c29e-0469-4132-9cd2-b356aa80a095",
         "35158111-5bbb-4d72-943a-85cbf8bd526f",
-        "0f5f9307-1395-44e5-986d-f6309db08543",
         "451a6b14-922a-44c7-a179-57275a5c9384",
         "0e5a9cb5-a921-4021-9ab6-fb5121cf40dc",
         "f6c28b5c-b81c-4c2a-90d8-da2d8c6d5570",
@@ -1793,12 +1768,10 @@
         "0e111916-7d7a-40cb-9ea2-40c744d57835",
         "80f9933e-2a47-4da8-aad8-a9470bf52e8c",
         "6dda324c-fa33-4fe1-8cea-9865db1a22af",
-        "54239b90-0896-4348-9c35-947a14cf8066",
         "d0f243e8-c6c3-41a3-8867-fa1455b9c82c",
-        "04b5a6fd-3016-4f5b-b52f-f4d20b4822aa",
         "06141a50-1829-4ee3-867c-19edca656d2f",
-        "fd49156a-35bd-426e-ab80-c5cb5d84415e",
-        "c62038c9-6619-4ae6-af34-f5e44ad20808",
+        "a0f192c5-eb0d-4d87-b979-fdcf8dbb6031",
+        "88f7bd31-1e37-4f25-b962-4a53abff4e21",
         "c2e2acab-d487-41ff-aedd-9629dd478563",
         "75237e9d-0fa2-49c3-87d8-3b9c0db94108",
         "60afac7c-594f-4d4b-8825-bb114ee0b7a8",

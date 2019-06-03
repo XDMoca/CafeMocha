@@ -4,13 +4,13 @@
     "mvc": "1.1",
     "name": "0d85d016-edb4-4eb4-a079-b207c29bbb0d",
     "children": [
-        "a6293997-0856-4857-9791-02d84bcbe7a4",
-        "c98a08ba-a5e8-44c2-a784-fbdc9dab583e",
-        "4c989894-f021-49dc-8eb9-e660d3f704c4",
+        "6667fe30-e5c0-4674-b586-ccc2529bd33f",
+        "3778b6ec-fcc5-4310-8397-b5088adeae90",
         "188ab235-3be9-4e59-8785-687a67ba6adc",
-        "11e5e9db-509b-45b5-a5eb-542b39f73a95",
         "8ea6519b-ea71-43f8-b340-469bd6d13527",
-        "673ef1f8-6671-4338-8b3a-f0dd7e714338"
+        "673ef1f8-6671-4338-8b3a-f0dd7e714338",
+        "ab55cbc6-f34b-446f-bf44-27fcb7530986",
+        "30ba8d99-1a0e-46c4-917c-7f757ec60921"
     ],
     "filterType": "GMSprite",
     "folderName": "DrinkStationScreen",

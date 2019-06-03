@@ -9,9 +9,12 @@ if(show)
 {
 	drinkStation.isMenuOpen = true;
 	instance_activate_object(ui_drink_station_button);
+	instance_activate_object(ui_rhythm_marker);
+	instance_deactivate_object(btn_stop_mixing);
 }
 else
 {
 	drinkStation.isMenuOpen = false;
 	instance_deactivate_object(ui_drink_station_button);
+	instance_deactivate_object(ui_rhythm_marker);
 }

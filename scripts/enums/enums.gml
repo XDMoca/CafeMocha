@@ -43,7 +43,6 @@ enum Ingredient
 
 enum InteractableType
 {
-	Counter,
 	DrinkStation,
 	Customer,
 	Door

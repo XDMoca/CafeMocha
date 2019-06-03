@@ -1,6 +1,7 @@
 /// @description Update State, Respond to clicks
 
 #region State Animations
+/*
 switch(state)
 {
 	case VisualState.deactivating: 
@@ -51,7 +52,9 @@ switch(state)
 		image_alpha=0;
 	}break;
 }
+*/
 #endregion
+
 
 //Detect Clicks
 if (state != VisualState.active) exit;

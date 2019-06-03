@@ -12,13 +12,6 @@ switch(obj_mocha.direction)
 #endregion
 
 #region Detection
-interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_counter, false, true);
-if(interactableInInteractionRange != noone)
-{
-	interactableTypeInInteractionRange = InteractableType.Counter;
-	return;
-}
-
 interactableInInteractionRange = collision_line(obj_mocha.x, obj_mocha.y, obj_mocha.x+xRangeModifier, obj_mocha.y+yRangeModifier, obj_drink_station, false, true);
 if(interactableInInteractionRange != noone)
 {
