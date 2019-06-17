@@ -35,10 +35,9 @@ enum CupContents
 
 enum Ingredient
 {
-	Coffee,
-	Water,
-	LightFoamMilk,
-	HeavyFoamMilk
+	Coffee = 0,
+	Water = 1,
+	Length
 }
 
 enum InteractableType

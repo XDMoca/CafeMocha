@@ -14,12 +14,12 @@ switch(order)
 		else
 			return false;
 	case Order.CafeLatte:
-		if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water, Ingredient.LightFoamMilk]))
+		if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
 			return true;
 		else
 			return false;
 	case Order.Cappuccino:
-		if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water, Ingredient.HeavyFoamMilk]))
+		if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
 			return true;
 		else
 			return false;

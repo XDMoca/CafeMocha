@@ -5,7 +5,7 @@
 var cupObject = argument0;
 if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
 	return "Espresso";
-if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water, Ingredient.LightFoamMilk]))
+if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
 	return "Cafe Latte";
-if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water, Ingredient.HeavyFoamMilk]))
+if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
 	return "Cappuccino";

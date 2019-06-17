@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "467b9f12-4187-4388-9cad-3d0bc9aab275",
+            "Value": {
+                "id": "56101069-f336-4a2d-a8c9-b48f6096316c",
+                "resourcePath": "sprites\\spr_rhythm_icon_water\\spr_rhythm_icon_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "46a171c2-6423-4209-ab97-5d5ad5b70977",
             "Value": {
                 "id": "a34b1ca6-6ce0-4700-98d1-65092f73e73a",
