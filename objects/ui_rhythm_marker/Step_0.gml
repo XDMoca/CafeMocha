@@ -7,14 +7,19 @@ if(keyboard_check_pressed(ord(beatKey)))
 {
 	if(!ds_queue_empty(icons))
 	{
-		var currentSelectedIngredientsNumber = ds_list_size(drinkStation.selectedIngredients);
-		if(currentSelectedIngredientsNumber < drinkStation.maxIngredientsCanHold)
+		var currentSelectedOrderItemsNumber = ds_list_size(drinkStation.selectedOrderItems);
+		if(currentSelectedOrderItemsNumber < drinkStation.maxOrderItemsCanHold)
 		{
 			var icon = ds_queue_dequeue(icons);
-			ds_list_add(drinkStation.selectedIngredients, icon.ingredientType);
+			ds_list_add(drinkStation.selectedOrderItems, icon.orderItemType);
 			icon.isFalling = false;
-			icon.x = drinkStation.selectedIngredientsPositions[currentSelectedIngredientsNumber,0];
-			icon.y = drinkStation.selectedIngredientsPositions[currentSelectedIngredientsNumber,1];
+			icon.x = drinkStation.selectedOrderItemsPositions[currentSelectedOrderItemsNumber,0];
+			icon.y = drinkStation.selectedOrderItemsPositions[currentSelectedOrderItemsNumber,1];
+			
+			if(currentSelectedOrderItemsNumber+1 == drinkStation.maxOrderItemsCanHold)
+			{
+				stop_mixing_button_click(btn_stop_mixing);
+			}
 		}
 	}
 }

@@ -12,7 +12,7 @@ if(interactionManager.interactableTypeInInteractionRange != InteractableType.Cus
 if(cupObject == noone)
 	return;
 
-var cupRating = cupObject.ingredientScore / array_length_1d(cupObject.ingredients);
+var cupRating = cupObject.orderItemScore / array_length_1d(cupObject.orderItems);
 
 var isOrderCorrect = does_cup_match_order(cupObject, customerObject.order);
 if(!isOrderCorrect)

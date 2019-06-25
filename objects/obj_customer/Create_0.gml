@@ -1,5 +1,5 @@
 direction = Direction.down;
-order = Order.Cappuccino;
+order = [];
 party = noone;
 satisfactionRating = 0;
 

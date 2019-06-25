@@ -10,11 +10,13 @@ if(textbox_exists())
 	
 var orderDialogue = "";
 
-switch(customerObject.order)
+for(var i=0; i<array_length_1d(customerObject.order); i++)
 {
-	case Order.Cappuccino: orderDialogue = "I'd like a cappuccino, please."; break;
-	case Order.CafeLatte:  orderDialogue = "Can I get a Cafe Latte, please."; break;
-	case Order.Espresso:  orderDialogue = "I'll take an espresso, please."; break;
+	switch(customerObject.order[i])
+	{
+		case OrderItem.Coffee: orderDialogue += "Coffee "; break;
+		case OrderItem.Water:  orderDialogue += "Water "; break;
+	}
 }
 
 textbox_create(orderDialogue);

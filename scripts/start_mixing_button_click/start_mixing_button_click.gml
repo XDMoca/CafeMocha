@@ -8,5 +8,5 @@ instance_activate_object(btn_stop_mixing);
 with(ui_rhythm_marker)
 {
 	active = true;
-	alarm[0] = 2 * room_speed;
+	alarm[0] = random_range(minSpawnInterval, maxSpawnInterval) * room_speed;
 }

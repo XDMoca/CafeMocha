@@ -1,1 +1,1 @@
-ds_list_destroy(selectedIngredients);
+ds_list_destroy(selectedOrderItems);

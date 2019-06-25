@@ -4,6 +4,10 @@
 
 var customerObject = argument0;
 
-var orderType = irandom_range(0,2);
-customerObject.order = orderType;
+var numberOfOrders = irandom_range(const_customer_min_orders, const_customer_max_orders);
+for(var i=0; i<numberOfOrders; i++)
+{
+	var orderType = irandom_range(0, OrderItem.Length-1);
+	customerObject.order[i] = orderType;	
+}
 customerObject.customerStatus = CustomerStatus.decidedOnOrder;

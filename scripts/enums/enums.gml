@@ -33,7 +33,7 @@ enum CupContents
 	Cappuccino = 2,
 }
 
-enum Ingredient
+enum OrderItem
 {
 	Coffee = 0,
 	Water = 1,

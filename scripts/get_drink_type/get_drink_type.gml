@@ -6,11 +6,11 @@ var cupObject = argument0;
 if(cupObject == noone)
 	return;
 	
-if(array_length_1d(cupObject.ingredients) == 0)
+if(array_length_1d(cupObject.orderItems) == 0)
 	return CupContents.EmptyCup;
-if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
+if(array_equals(cupObject.orderItems, [OrderItem.Coffee, OrderItem.Water]))
 	return CupContents.Espresso;
-if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
+if(array_equals(cupObject.orderItems, [OrderItem.Coffee, OrderItem.Water]))
 	return CupContents.Cappuccino;
 	
 return CupContents.EmptyCup;

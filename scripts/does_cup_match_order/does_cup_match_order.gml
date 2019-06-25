@@ -9,17 +9,17 @@ var order = argument1;
 switch(order)
 {
 	case Order.Espresso:
-		if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
+		if(array_equals(cupObject.orderItems, [OrderItem.Coffee, OrderItem.Water]))
 			return true;
 		else
 			return false;
 	case Order.CafeLatte:
-		if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
+		if(array_equals(cupObject.orderItems, [OrderItem.Coffee, OrderItem.Water]))
 			return true;
 		else
 			return false;
 	case Order.Cappuccino:
-		if(array_equals(cupObject.ingredients, [Ingredient.Coffee, Ingredient.Water]))
+		if(array_equals(cupObject.orderItems, [OrderItem.Coffee, OrderItem.Water]))
 			return true;
 		else
 			return false;
