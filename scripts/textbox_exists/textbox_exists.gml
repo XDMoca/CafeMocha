@@ -1,5 +1,6 @@
 ///@description textbox_exists
 ///Checks if textbox exists - instead of using this script you could just use the instance_exists function
+/// @arg customerObject The customer object
 if instance_exists(textbox) {
 	return true;
 }else{

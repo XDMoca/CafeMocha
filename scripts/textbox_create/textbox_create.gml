@@ -13,10 +13,10 @@
 //You just need to set up to 10 messages in the arguments
 
 //Create the textbox (You'll probably need to change the layer to suit your project. But make sure it's above everything.)
-instance_create_layer(x,y,"hud",textbox);
+var createdTextbox = instance_create_layer(x,y,"hud",textbox);
 
 
-with(textbox) {
+with(createdTextbox) {
 
 
 ///Messages
@@ -108,6 +108,7 @@ textsound = noone;
 //Mode
 mode = "box";
 
+return createdTextbox;
 
 //Example:
 //textbox_create("Hi","My name is Bob.","How are you?");

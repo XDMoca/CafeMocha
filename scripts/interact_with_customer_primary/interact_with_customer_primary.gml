@@ -23,10 +23,10 @@ switch(customerObject.customerStatus)
 			party.customers[i].customerStatus = CustomerStatus.followingPlayer;
 		}
 	break;
-	case CustomerStatus.decidedOnOrder:
-			take_order(customerObject);
-	break;
-	case CustomerStatus.waitingForOrder:
-		show_tray_menu(InteractionManager_Open);
+	//case CustomerStatus.decidedOnOrder:
+	//		take_order(customerObject);
+	//break;
+	//case CustomerStatus.waitingForOrder:
+	//	show_tray_menu(InteractionManager_Open);
 	break;
 }

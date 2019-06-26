@@ -1,4 +1,5 @@
 ///@description textbox_set_speed
+///@arg ObjectTalking
 ///@arg speed1
 ///@arg speed2*
 ///@arg speed3*
@@ -7,11 +8,11 @@
 ///There can be up to 10 messages
 ///You have to add as many arguments as there are messages. (You set the messages with textbox_create()).
 
-with(textbox) {
+with(argument[0].textbox) {
 	//Set the speed for all the provided arguments
-	for (var i = 0; i < 10; i ++;) {
+	for (var i = 1; i < 10; i ++;) {
 		if argument_count > i {
-			message_speed[i] = argument[i];
+			message_speed[i-1] = argument[i];
 		}
 	}
 	//Speed is set

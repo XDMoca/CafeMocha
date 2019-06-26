@@ -10,7 +10,7 @@
 ///Set the stlye of speech bubble - This is needed to use it.
 
 
-with(textbox) {
+with(argument[7].textbox) {
 	name = argument[0];
 	general_colour = argument[1];
 	text_colour = argument[2];

@@ -4,22 +4,30 @@
 
 var tableObject = argument0;
 
-if(party == noone)
-	return;
-	
-if(array_length_1d(party.customers) > array_length_1d(tableObject.chairs))
-	return;
-
-for(i=0; i<array_length_1d(party.customers); i++)
+if(party != noone && tableObject.party == noone)
 {
-	party.customers[i].customerStatus = CustomerStatus.decidingOnOrder;
-	party.customers[i].x = tableObject.chairs[i].x;
-	party.customers[i].y = tableObject.chairs[i].y;
-	party.customers[i].direction = tableObject.chairs[i].direction;
+	if(array_length_1d(party.customers) > array_length_1d(tableObject.chairs))
+		return;
+
+	for(var i=0; i<array_length_1d(party.customers); i++)
+	{
+		party.customers[i].customerStatus = CustomerStatus.decidingOnOrder;
+		party.customers[i].x = tableObject.chairs[i].x;
+		party.customers[i].y = tableObject.chairs[i].y;
+		party.customers[i].direction = tableObject.chairs[i].direction;
+	}
+
+	party.alarm[0] = irandom_range(party.minTimeToDecideOrder, party.maxTimeToDecideOrder) * room_speed;
+	tableObject.party = party;
+	party.table = tableObject;
+	party = noone;
+	return;
 }
 
-
-party.alarm[0] = irandom_range(party.minTimeToDecideOrder, party.maxTimeToDecideOrder) * room_speed;
-tableObject.party = party;
-party.table = tableObject;
-party = noone;
+if(party == noone && tableObject.party != noone)
+{
+	for(var i=0; i<array_length_1d(tableObject.party.customers); i++)
+	{
+		take_order(tableObject.party.customers[i]);
+	}
+}
