@@ -11,6 +11,19 @@ switch(interactableTypeInInteractionRange)
 	case InteractableType.DrinkStation:
 		promptText = "Spacebar: Make Drinks";
 	break;
+	case InteractableType.Table:
+		if(interactableInInteractionRange.party == noone && party != noone)
+			promptText = "Spacebar: Seat Party";
+		else if (interactableInInteractionRange.party != noone && party == noone)
+		{
+			if(interactableInInteractionRange.party.customers[0].customerStatus == CustomerStatus.decidedOnOrder)
+				promptText = "Spacebar: Take Order";
+		}
+	break;
+	case InteractableType.Customer:
+		promptText = "Spacebar: Guide Party";
+	break;
+	break;
 }
 var promptXPosition = (viewWidth/2) - (string_width(promptText)/2);
 draw_set_color(colour);
