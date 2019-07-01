@@ -1,11 +1,14 @@
-if(drinkStation.cup == noone)
-	isClickable = false;
+if(ds_list_size(drinkStation.selectedOrderItems) > 0)
+{
+	if(!drinkStation.active)
+		isClickable = true;
+	else
+		isClickable = false;
+	
+}
 else
 {
-	if(ds_list_size(interactionManager.trayItems) >= interactionManager.maxTrayItems)
-		isClickable = false;
-	else
-		isClickable = true;
+	isClickable = false;
 }
 event_inherited();
 

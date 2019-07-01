@@ -1,6 +1,6 @@
 depth = -y;
 
-cup = noone;
+active = false;
 
 #region Selected OrderItems
 maxOrderItemsCanHold = 10;

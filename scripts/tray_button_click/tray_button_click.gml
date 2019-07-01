@@ -3,15 +3,13 @@
 /// @arg espressoButton The tray button
 
 var trayButton = argument0;
-var cup = trayButton.drinkStation.cup;
-
-if(cup != noone)
+var drinkStation = trayButton.drinkStation;
+var interactionManager = InteractionManager_Open;
+	
+var itemsCount = ds_list_size(interactionManager.trayItems);
+for(var i=0; i<itemsCount; i++)
 {
-	interactionManager = InteractionManager_Open;
-	
-	if(ds_list_size(interactionManager.trayItems) >= interactionManager.maxTrayItems)
-		return;
-	
-	ds_list_add(interactionManager.trayItems, cup);
-	trayButton.drinkStation.cup = noone;
+	interactionManager.orderItems[drinkStation.selectedOrderItems[i].orderItemType]++;
 }
+
+remove_all_order_items();

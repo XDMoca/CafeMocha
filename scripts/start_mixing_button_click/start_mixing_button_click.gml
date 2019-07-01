@@ -10,3 +10,4 @@ with(ui_rhythm_marker)
 	active = true;
 	alarm[0] = random_range(minSpawnInterval, maxSpawnInterval) * room_speed;
 }
+startMixingButton.drinkStation.active = true;

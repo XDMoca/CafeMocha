@@ -3,8 +3,6 @@
 /// @arg stopMixingButton the stop mixing button
 
 var stopMixingButton = argument0;
-instance_deactivate_object(stopMixingButton);
-instance_activate_object(btn_start_mixing);
 with(ui_rhythm_marker)
 {
 	active = false;
@@ -14,3 +12,6 @@ with(ui_rhythm_marker)
 		instance_destroy(ds_queue_dequeue(icons));
 	}
 }
+stopMixingButton.drinkStation.active = false;
+instance_deactivate_object(stopMixingButton);
+instance_activate_object(btn_start_mixing);

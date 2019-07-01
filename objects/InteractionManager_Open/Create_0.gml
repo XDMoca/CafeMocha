@@ -1,9 +1,15 @@
 range = 50;
-holdingCup = false;
 cup = noone;
 
 trayItems = ds_list_create();
 maxTrayItems = 5;
+
+orderItems = [];
+//Initialise Order Array
+for(var i=0; i<OrderItem.Length; i++)
+{
+	order[i] = 0;
+}
 
 party = noone;
 

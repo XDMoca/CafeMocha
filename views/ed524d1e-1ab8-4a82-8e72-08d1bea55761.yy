@@ -9,7 +9,8 @@
         "06141a50-1829-4ee3-867c-19edca656d2f",
         "a0f192c5-eb0d-4d87-b979-fdcf8dbb6031",
         "88f7bd31-1e37-4f25-b962-4a53abff4e21",
-        "c2e2acab-d487-41ff-aedd-9629dd478563"
+        "c2e2acab-d487-41ff-aedd-9629dd478563",
+        "5abe47fe-7395-4de9-82e1-3f39e828c7ca"
     ],
     "filterType": "GMScript",
     "folderName": "DrinkStation",

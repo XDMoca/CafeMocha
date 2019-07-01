@@ -15,6 +15,7 @@ if(show)
 else
 {
 	drinkStation.isMenuOpen = false;
+	remove_all_order_items();
 	instance_deactivate_object(ui_drink_station_button);
 	instance_deactivate_object(ui_rhythm_marker);
 }
