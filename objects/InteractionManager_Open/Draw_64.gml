@@ -18,11 +18,19 @@ switch(interactableTypeInInteractionRange)
 		{
 			if(interactableInInteractionRange.party.customers[0].customerStatus == CustomerStatus.decidedOnOrder)
 				promptText = "Spacebar: Take Order";
+			else if (interactableInInteractionRange.party.customers[0].customerStatus == CustomerStatus.waitingForOrder)
+			{
+				
+				if(tray_has_order_items(self))
+				{
+					promptText = "Spacebar: Give Order";
+				}
+			}
 		}
 	break;
 	case InteractableType.Customer:
+	if(interactableInInteractionRange.party.customers[0].customerStatus == CustomerStatus.waitingForTable)
 		promptText = "Spacebar: Guide Party";
-	break;
 	break;
 }
 var promptXPosition = (viewWidth/2) - (string_width(promptText)/2);

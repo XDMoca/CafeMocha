@@ -1,0 +1,27 @@
+/// @function deliver_order(party)
+/// @description Gives the order held to the prarty at the table
+/// @arg party The party receiving the order
+
+var party = argument0;
+
+var isCorrectOrder = "Order is correct";
+for(var i=0; i<OrderItem.Length; i++)
+{
+	if(party.order[i] != orderItems[i])
+	{
+		isCorrectOrder = "Order is incorrect";
+		break;
+	}
+}
+show_debug_message(isCorrectOrder);
+
+for(var i=0; i<array_length_1d(party.customers); i++)
+{
+	party.customers[i].customerStatus = CustomerStatus.drinkingOrder;
+	party.customers[i].alarm[0] = party.customers[i].timeToFinishDrink;
+}
+
+for(var i=0; i<OrderItem.Length; i++)
+{
+	orderItems[i] = 0;
+}

@@ -1,4 +1,4 @@
-/// @function remove_all_order_items()
+/// @function remove_all_selected_order_items()
 /// @description removes all order items from drink station
 
 var drinkStation = obj_drink_station;

@@ -4,10 +4,6 @@
 
 var customerObject = argument0;
 
-//if(textbox_exists())
-//	return;
-	
-	
 var orderDialogue = "";
 
 for(var i=0; i<array_length_1d(customerObject.order); i++)

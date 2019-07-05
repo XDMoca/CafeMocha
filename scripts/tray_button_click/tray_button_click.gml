@@ -6,10 +6,10 @@ var trayButton = argument0;
 var drinkStation = trayButton.drinkStation;
 var interactionManager = InteractionManager_Open;
 	
-var itemsCount = ds_list_size(interactionManager.trayItems);
+var itemsCount = ds_list_size(drinkStation.selectedOrderItems);
 for(var i=0; i<itemsCount; i++)
 {
-	interactionManager.orderItems[drinkStation.selectedOrderItems[i].orderItemType]++;
+	interactionManager.orderItems[drinkStation.selectedOrderItems[| i]]++;
 }
 
-remove_all_order_items();
+remove_all_selected_order_items();

@@ -8,7 +8,7 @@
         "f38a3ef8-989e-45fa-80fa-6dbccc4b6f95"
     ],
     "filterType": "GMObject",
-    "folderName": "TrayMenu",
+    "folderName": "TrayMenu (NotUsedATM)",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

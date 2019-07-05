@@ -26,8 +26,19 @@ if(party != noone && tableObject.party == noone)
 
 if(party == noone && tableObject.party != noone)
 {
-	for(var i=0; i<array_length_1d(tableObject.party.customers); i++)
+	switch(tableObject.party.customers[0].customerStatus)
 	{
-		take_order(tableObject.party.customers[i]);
+		case CustomerStatus.decidedOnOrder:
+		{
+			for(var i=0; i<array_length_1d(tableObject.party.customers); i++)
+			{
+				take_order(tableObject.party.customers[i]);
+			}
+			break;
+		}
+		case CustomerStatus.waitingForOrder:
+		{
+			deliver_order(tableObject.party);
+		}
 	}
 }
