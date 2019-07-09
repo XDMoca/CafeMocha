@@ -2,6 +2,9 @@ depth = -y;
 
 active = false;
 
+maxSpawnInterval = 2.1;
+minSpawnInterval = 0.9;
+
 #region Selected OrderItems
 maxOrderItemsCanHold = 10;
 selectedOrderItems = ds_list_create();

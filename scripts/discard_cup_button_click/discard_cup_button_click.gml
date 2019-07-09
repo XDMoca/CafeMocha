@@ -2,9 +2,4 @@
 /// @description Handles button interactions with the Discard Cup Button
 /// @arg discardCupButton the discard cup button
 
-var discardCupButton = argument0;
-if(discardCupButton.drinkStation.cup == noone)
-	return;
-	
-instance_destroy(discardCupButton.drinkStation.cup);
-discardCupButton.drinkStation.cup = noone;
+remove_all_selected_order_items();

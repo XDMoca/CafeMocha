@@ -5,16 +5,6 @@
     "name": "ui_rhythm_marker",
     "eventList": [
         {
-            "id": "0ce91578-f62f-496f-bf67-48b43f9ba31c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "cd4c8dfc-e4c3-4ca8-9517-f5b98752ef49"
-        },
-        {
             "id": "043af7aa-b699-40a2-b6ec-84d97e6af4da",
             "modelName": "GMEvent",
             "mvc": "1.0",

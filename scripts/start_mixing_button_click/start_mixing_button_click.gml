@@ -8,6 +8,6 @@ instance_activate_object(btn_stop_mixing);
 with(ui_rhythm_marker)
 {
 	active = true;
-	alarm[0] = random_range(minSpawnInterval, maxSpawnInterval) * room_speed;
 }
 startMixingButton.drinkStation.active = true;
+startMixingButton.drinkStation.alarm[0] = random_range(startMixingButton.drinkStation.minSpawnInterval, startMixingButton.drinkStation.maxSpawnInterval) * room_speed;
