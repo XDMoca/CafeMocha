@@ -6,6 +6,10 @@
 #macro const_shop_open_duration 15
 #macro const_customer_max_orders 3
 #macro const_customer_min_orders 1
+
+#macro const_order_great_range 5
+#macro const_order_fine_range 20
+
 #macro const_save_file_name "TotallyNotSaveFile.lol"
 #macro const_save_key_time "Time"
 #macro const_save_key_day "Day"

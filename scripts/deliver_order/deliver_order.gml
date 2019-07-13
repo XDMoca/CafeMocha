@@ -4,12 +4,14 @@
 
 var party = argument0;
 
+party.currentOrderRating = currentOrderRating;
 var isCorrectOrder = "Order is correct";
 for(var i=0; i<OrderItem.Length; i++)
 {
 	if(party.order[i] != orderItems[i])
 	{
 		isCorrectOrder = "Order is incorrect";
+		party.currentOrderRating = party.currentOrderRating/2;
 		break;
 	}
 }

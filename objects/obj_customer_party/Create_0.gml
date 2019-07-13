@@ -5,6 +5,7 @@ maxTimeToDecideOrder = 10;
 numberOfCustomersInParty = 0;
 table = noone;
 order = [];
+currentOrderRating = 0;
 
 //Initialise Order Array
 for(var i=0; i<OrderItem.Length; i++)

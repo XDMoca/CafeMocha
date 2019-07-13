@@ -5,6 +5,8 @@ active = false;
 maxSpawnInterval = 2.1;
 minSpawnInterval = 0.9;
 
+currentOrderRating = 0;
+
 #region Selected OrderItems
 maxOrderItemsCanHold = 10;
 selectedOrderItems = ds_list_create();

@@ -1,5 +1,6 @@
 range = 50;
 
+currentOrderRating = 0;
 orderItems = [];
 //Initialise Order Array
 for(var i=0; i<OrderItem.Length; i++)

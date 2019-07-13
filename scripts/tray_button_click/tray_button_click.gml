@@ -11,5 +11,5 @@ for(var i=0; i<itemsCount; i++)
 {
 	interactionManager.orderItems[drinkStation.selectedOrderItems[| i]]++;
 }
-
+interactionManager.currentOrderRating = drinkStation.currentOrderRating / itemsCount;
 remove_all_selected_order_items();

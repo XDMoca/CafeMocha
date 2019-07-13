@@ -8,3 +8,4 @@ with(ui_rhythm_icon)
 	instance_destroy(self);
 }
 ds_list_clear(drinkStation.selectedOrderItems);
+drinkStation.currentOrderRating = 0;
