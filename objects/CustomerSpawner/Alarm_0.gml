@@ -20,7 +20,7 @@ if(spawnX != 0 && spawnY != 0)
 {
 	var customerParty = instance_create_layer(spawnX, spawnY, layer_characters, obj_customer_party);
 
-	var customersToSpawn = irandom_range(minCustomersToSpawn, maxCustomersToSpawn)
+	var customersToSpawn = irandom_range(const_min_customers_to_spawn, const_max_customers_to_spawn)
 	var customerTypeToSpawn = get_customer_type_to_spawn();
 	for(var i = 0; i < customersToSpawn; i++)
 	{

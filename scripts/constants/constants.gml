@@ -4,6 +4,10 @@
 
 #macro const_move_speed 3
 #macro const_shop_open_duration 15
+
+#macro const_max_customers_to_spawn 4
+#macro const_min_customers_to_spawn 2
+
 #macro const_customer_max_orders 3
 #macro const_customer_min_orders 1
 

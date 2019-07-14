@@ -2,9 +2,6 @@ minSpawnInterval = 5 * room_speed;
 maxSpawnInterval = 30 * room_speed;
 alarm[0] = minSpawnInterval;
 
-minCustomersToSpawn = 1;
-maxCustomersToSpawn = 2;
-
 #region Setup spawn points
 spawnPositions[0,0] = 0;
 spawnPositions[0,1] = 0;

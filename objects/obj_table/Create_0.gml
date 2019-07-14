@@ -5,3 +5,7 @@ chairs[0] = instance_create_layer(x-chairPositionOffset, y, layer_room_objects, 
 chairs[0].direction = Direction.right;
 chairs[1] = instance_create_layer(x+chairPositionOffset, y, layer_room_objects, obj_chair);
 chairs[1].direction = Direction.left;
+chairs[2] = instance_create_layer(x, y-chairPositionOffset, layer_room_objects, obj_chair);
+chairs[2].direction = Direction.down;
+chairs[3] = instance_create_layer(x, y+chairPositionOffset, layer_room_objects, obj_chair);
+chairs[3].direction = Direction.up;

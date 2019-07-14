@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "c3639a82-6c1f-4fa7-8d53-ee2648b7462e",
+            "Value": {
+                "id": "8e184342-d89a-4864-a613-dc92197bd8c4",
+                "resourcePath": "sprites\\spr_chair_bottom\\spr_chair_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c54e3618-caf9-4920-9c9d-99a6169a08c9",
             "Value": {
                 "id": "b2988493-1765-4145-8111-ff236e4d788c",
@@ -1620,6 +1628,14 @@
                 "id": "bf0675bc-c8dd-438a-9508-258b7cbec5f3",
                 "resourcePath": "scripts\\interact_with_drink_station\\interact_with_drink_station.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "eb438491-616b-4069-b91e-c80e31059587",
+            "Value": {
+                "id": "7cdfab92-df75-4de5-b22d-25512e2523dd",
+                "resourcePath": "sprites\\spr_chair_top\\spr_chair_top.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
