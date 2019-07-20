@@ -51,6 +51,7 @@ inactive_offset=[0,0];
 displayText = "";
 textFont = fnt_default_button;
 textColour = make_color_rgb(160, 65, 13);
+textAlignment = Alignment.center;
 #endregion
 
 //Update Position
