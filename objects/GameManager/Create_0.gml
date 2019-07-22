@@ -1,6 +1,7 @@
 randomize();
 
 #region Room Transition
+depth = -5000;
 targetRoom = noone;
 inTransition = false;
 currentAlpha = 1;

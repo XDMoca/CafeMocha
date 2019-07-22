@@ -7,6 +7,10 @@ if(keyboard_check_pressed(vk_space))
 		animateFunds = true;
 		audio_play_sound(snd_cash_register, 10, false);
 	}
+	else
+	{
+		end_shop_session();
+	}
 }
 
 if(animateFunds)

@@ -1,9 +1,10 @@
 #macro layer_room_objects "RoomObjects"
 #macro layer_characters "Characters"
 #macro layer_tray_menu "TrayMenu"
+#macro layer_result_screen "ResultScreen"
 
 #macro const_move_speed 3
-#macro const_shop_open_duration 15
+#macro const_shop_open_duration 1
 
 #macro const_max_customers_to_spawn 4
 #macro const_min_customers_to_spawn 2
