@@ -1,4 +1,4 @@
 event_inherited();
 
-value = 1000;
+value = 0;
 

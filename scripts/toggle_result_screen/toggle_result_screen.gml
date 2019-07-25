@@ -7,6 +7,9 @@ if(show)
 {
 	instance_activate_object(ui_result_screen_base);
 	instance_activate_object(ui_result_screen_text);
+	ui_result_screen_value_amount_earned.value = ShopSessionManager.amountEarned; 
+	ui_result_screen_value_expenses.value = ShopSessionManager.expenses;
+	ui_result_screen_value_rent.value = ShopSessionManager.rent;
 }
 else
 {

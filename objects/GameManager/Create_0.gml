@@ -1,5 +1,7 @@
 randomize();
 
+shopMode = ShopMode.Closed;
+
 #region Room Transition
 depth = -5000;
 targetRoom = noone;

@@ -10,4 +10,6 @@ with(GameManager)
 	targetRoom = nextRoom;
 	roomEnteredSound = roomEnterSound;
 	inTransition = true;
+	shopMode = nextRoom == rm_shop_open ? ShopMode.Open : ShopMode.Closed;
+	showHud = nextRoom == rm_shop_closed;
 }

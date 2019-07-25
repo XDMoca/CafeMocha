@@ -72,3 +72,9 @@ enum DayOfWeek
 	Saturday = 5,
 	Sunday = 6
 }
+
+enum ShopMode
+{
+	Open,
+	Closed
+}

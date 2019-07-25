@@ -6,6 +6,9 @@ if(keyboard_check_pressed(vk_space))
 	{
 		animateFunds = true;
 		audio_play_sound(snd_cash_register, 10, false);
+		var shopSessionManager = ShopSessionManager;
+		var profit = shopSessionManager.amountEarned + shopSessionManager.expenses + shopSessionManager.rent;
+		GameManager.money += profit;
 	}
 	else
 	{

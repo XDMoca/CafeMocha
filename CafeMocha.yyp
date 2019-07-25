@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "2c7820eb-755b-45b8-a6e4-e1d3c89577c2",
+            "Value": {
+                "id": "d762f8b8-22a2-4f9a-9bf2-cac3da2d9ba0",
+                "resourcePath": "objects\\ShopSessionManager\\ShopSessionManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ca88305-ad08-4359-abd4-0ad084810b15",
             "Value": {
                 "id": "06889e72-7d31-4aac-abb3-83787ed1191b",
